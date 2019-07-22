@@ -16,7 +16,6 @@ db.execute <<-SQL
   );
 SQL
 
-
 [
   "Arizona Cardinals",
   "Atlanta Falcons",
@@ -52,4 +51,16 @@ SQL
   "Washington Redskins"
 ].each_with_index do |name, index|
   db.execute "insert into teams(id, name) values ( ?, ? )", [index, name]
+end
+
+# Preassign those we know
+{
+  "UF854AY1K" => "New England Patriots", # Alex McC
+  "U1DKE050A" => "Philadelphia Eagles",  # Conor
+  "U03JJTQMA" => "San Francisco 49ers",  # James
+  "UH8001CUX" => "Green Bay Packers",    # Alistair
+  "U0H3MGR0E" => "San Diego Chargers",   # Rory
+  "U54SRH6MP" => "Houston Texans",       # Tamsin
+}.each do |slack_user_id, team_name|
+  db.execute "insert into employees_teams(slack_user_id, team_id) select ?, id from teams where name = ?", [slack_user_id, team_name]
 end

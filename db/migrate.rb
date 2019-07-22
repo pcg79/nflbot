@@ -1,6 +1,6 @@
 require "sqlite3"
 
-db = SQLite3::Database.new "production.db"
+db = SQLite3::Database.new "db/production.db"
 
 db.execute <<-SQL
   create table teams (
@@ -61,6 +61,7 @@ end
   "UH8001CUX" => "Green Bay Packers",    # Alistair
   "U0H3MGR0E" => "San Diego Chargers",   # Rory
   "U54SRH6MP" => "Houston Texans",       # Tamsin
+  "U59A582VA" => "Washington Redskins",  # Pat
 }.each do |slack_user_id, team_name|
   db.execute "insert into employees_teams(slack_user_id, team_id) select ?, id from teams where name = ?", [slack_user_id, team_name]
 end

@@ -8,24 +8,43 @@ class NFLBot < SlackRubyBot::Bot
   end
 
   match /(what|which)(\'s| is) my team/ do |client, data, match|
-    announce_team(client, data['user'], data.channel)
+    say_team(client, data['user'], data.channel)
   end
 
   match /(what|which) team(\'s| is) mine/ do |client, data, match|
-    announce_team(client, data['user'], data.channel)
+    say_team(client, data['user'], data.channel)
+  end
+
+  match /fact about my team/ do |client, data, match|
+    say_fact(client, data['user'], data.channel)
+  end
+
+  match /fact about (.*)/ do |client, data, match|
+    puts "*** #{match.inspect}"
+    # say_fact(client, match, data.channel)
   end
 
   private
 
   class << self
-    def announce_team(client, slack_user_id, channel)
-      team = find_team_by_slack_user_i(slack_user_id) || assign_team(slack_user_id)
+    def say_team(client, slack_user_id, channel)
+      team = find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id)
 
       client.say(text: "Your team is the #{team.first}", channel: channel)
     end
 
+    def say_fact(client, slack_user_id, channel)
+      if team = find_team_by_slack_user_id(slack_user_id)
+        team = team.first
+        if facts = find_facts(team)
+          client.say(text: "Here's a fun fact about the *#{team}*: #{facts.sample}", channel: channel)
+        end
+      else
+        client.say(text: "It doesn't look like you have a team!", channel: channel)
+      end
+    end
+
     def find_team_by_slack_user_id(slack_user_id)
-      puts "slack_user_id = #{slack_user_id}"
       rows = database.execute <<-SQL
         select name from teams t join employees_teams et
           on t.id = et.team_id
@@ -42,6 +61,16 @@ class NFLBot < SlackRubyBot::Bot
 
       rows = database.execute <<-SQL
         select name from teams where id = #{team_id}
+      SQL
+
+      rows.first
+    end
+
+    def find_facts(team_name)
+      rows = database.execute <<-SQL
+        select fact from teams_facts tf join teams t
+          on tf.team_id = t.id
+          where t.name = '#{team_name}'
       SQL
 
       rows.first

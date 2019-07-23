@@ -50,7 +50,7 @@ SQL
   "Tennessee Titans",
   "Washington Redskins"
 ].each_with_index do |name, index|
-  db.execute "insert into teams(id, name) values ( ?, ? )", [index, name]
+  db.execute "insert into teams(id, name) values ( ?, ? )", [index+1, name]
 end
 
 # Preassign those we know

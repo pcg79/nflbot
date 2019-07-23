@@ -48,7 +48,7 @@ class NFLBot < SlackRubyBot::Bot
     end
 
     def database
-      SQLite3::Database.new "production.db"
+      SQLite3::Database.new "db/production.db"
     end
   end
 end

@@ -19,8 +19,8 @@ class NFLBot < SlackRubyBot::Bot
     say_fact(client, data['user'], data.channel)
   end
 
-  match /fact about (.*)/ do |client, data, match|
-    puts "*** #{match.inspect}"
+  match /fact about (the )?(.*)/ do |client, data, match|
+    say_fact_for_team(client, match[2], data.channel) if match[2]
     # say_fact(client, match, data.channel)
   end
 
@@ -41,6 +41,12 @@ class NFLBot < SlackRubyBot::Bot
         end
       else
         client.say(text: "It doesn't look like you have a team!", channel: channel)
+      end
+    end
+
+    def say_fact_for_team(client, team_name, channel)
+      if facts = find_facts(team_name)
+        client.say(text: "Here's a fun fact about the *#{team_name}*: #{facts.sample}", channel: channel)
       end
     end
 
@@ -70,7 +76,7 @@ class NFLBot < SlackRubyBot::Bot
       rows = database.execute <<-SQL
         select fact from teams_facts tf join teams t
           on tf.team_id = t.id
-          where t.name = '#{team_name}'
+          where lower(t.name) like lower('#{team_name}')
       SQL
 
       rows.first

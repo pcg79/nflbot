@@ -76,7 +76,7 @@ class NFLBot < SlackRubyBot::Bot
       rows = database.execute <<-SQL
         select fact from teams_facts tf join teams t
           on tf.team_id = t.id
-          where lower(t.name) like lower('#{team_name}')
+          where lower(t.name) like lower('%#{team_name}%')
       SQL
 
       rows.first

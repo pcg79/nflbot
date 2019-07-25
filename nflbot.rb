@@ -4,7 +4,7 @@ require "sqlite3"
 
 class NFLBot < SlackRubyBot::Bot
   command 'ping' do |client, data, match|
-    client.say(text: 'pong', channel: data.channel)
+    client.say(text: "<@#{data.user}> - pong", channel: data.channel)
   end
 
   match /(what|which)(\'s| is) my team/ do |client, data, match|
@@ -24,7 +24,7 @@ class NFLBot < SlackRubyBot::Bot
   end
 
   match /fact about my team/ do |client, data, match|
-    team = get_team(data['user'])
+    team = get_team(data.user)
     facts = find_facts(team)
     say_fact(client, team, facts, data.channel) if facts
   end

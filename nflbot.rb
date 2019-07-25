@@ -8,11 +8,13 @@ class NFLBot < SlackRubyBot::Bot
   end
 
   match /(what|which)(\'s| is) my team/ do |client, data, match|
-    say_team(client, data['user'], data.channel)
+    team = get_team(data['user'])
+    client.say(text: "Your team is the #{team.first}", channel: data.channel)
   end
 
   match /(what|which) team(\'s| is) mine/ do |client, data, match|
-    say_team(client, data['user'], data.channel)
+    team = get_team(data['user'])
+    client.say(text: "Your team is the #{team.first}", channel: data.channel)
   end
 
   match /fact about my team/ do |client, data, match|
@@ -27,10 +29,8 @@ class NFLBot < SlackRubyBot::Bot
   private
 
   class << self
-    def say_team(client, slack_user_id, channel)
-      team = find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id)
-
-      client.say(text: "Your team is the #{team.first}", channel: channel)
+    def get_team(slack_user_id)
+      find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id)
     end
 
     def say_fact(client, slack_user_id, channel)

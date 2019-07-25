@@ -7,20 +7,9 @@ class NFLBot < SlackRubyBot::Bot
     client.say(text: "<@#{data.user}> - pong", channel: data.channel)
   end
 
-  match /(what|which)(\'s| is) my team/ do |client, data, match|
-    team = get_team(data['user'])
-    client.say(
-      text: "Your team is the *#{team}*",
-      channel: data.channel,
-      thread_ts: data.thread_ts || data.ts)
-  end
-
-  match /(what|which) team(\'s| is) mine/ do |client, data, match|
-    team = get_team(data['user'])
-    client.say(
-      text: "Your team is the *#{team}*",
-      channel: data.channel,
-      thread_ts: data.thread_ts || data.ts)
+  command /(what\'s|which is) my team.*/, /(what|which) team(\'s| is) mine.*/ do |client, data, match|
+    team = get_team(data.user)
+    client.say(text: "<@#{data.user}>, your team is the *#{team}*", channel: data.channel)
   end
 
   match /fact about my team/ do |client, data, match|

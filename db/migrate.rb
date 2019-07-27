@@ -40,6 +40,8 @@ SQL
   "Indianapolis Colts",
   "Jacksonville Jaguars",
   "Kansas City Chiefs",
+  "Los Angeles Chargers",
+  "Los Angeles Rams",
   "Miami Dolphins",
   "Minnesota Vikings",
   "New England Patriots",
@@ -49,10 +51,8 @@ SQL
   "Oakland Raiders",
   "Philadelphia Eagles",
   "Pittsburgh Steelers",
-  "San Diego Chargers",
   "San Francisco 49ers",
   "Seattle Seahawks",
-  "St. Louis Rams",
   "Tampa Bay Buccaneers",
   "Tennessee Titans",
   "Washington Redskins"
@@ -136,7 +136,12 @@ end
     "The Chiefs have an actual horse mascot named Warpaint."
   ],
   "Los Angeles Chargers" => [
-    "The Los Angeles Chargers’ existence began in the AFL back in 1960. The team moved to San Diego the very next season, and now the Chargers are back in Los Angeles after a 56-year hiatus."
+    "The Los Angeles Chargers’ existence began in the AFL back in 1960. The team moved to San Diego the very next season, and then in 2016 moved back to Los Angeles after a 56-year hiatus."
+  ],
+  "Los Angeles Rams" => [
+    "The Los Angeles Rams were established in Cleveland as the Cleveland Rams and played there from 1936 to 1945.",
+    "In 1945, the Los Angeles Rams left Cleveland for Los Angeles.  They stayed in LA until 1994 when they moved to St. Louis.",
+    "In 1995, the Los Angeles Rams moved from LA to St. Louis.  They stayed in St. Louis until 2015 at which point they moved _back_ to LA.",
   ],
   "Miami Dolphins" => [
     "Don Shula, who coached with the Baltimore Colts and the Miami Dolphins, won 347 games in his career. That's more than any other coach in NFL history. He was inducted into the Hall of Fame in 1997.",
@@ -150,16 +155,31 @@ end
     "The New England Patriots set an NFL record by throwing just four interceptions total in 2010 (all by Tom Brady, obviously). In that season, there were 15 occasions when a team threw four interceptions in a single game.",
   ],
   "New Orleans Saints" => [
+    "The New Orleans Saints were founded in 1967 by John W. Mecom Jr. and David Dixon.",
     "It took the New Orleans Saints 32 years to win their first playoff game.",
+    "In August 2005 Hurricane Katrina caused extensive damage to the Saints home stadium - the Superdome. The Saints had to move the rest of their games to other stadiums. The Superdome was used for emergency shelter during the hurricane.",
   ],
   "Philadelphia Eagles" => [
     "The Philadelphia Eagles joined the National Football League in 1933.",
     "On October 22, 1939, the Eagles lost to the Brooklyn Football Dodgers (a club which no longer exists) by a final score of 23-14 in what was the very first televised NFL game.",
     "World War II created a massive player shortage, with many pro footballers leaving their teams to fight overseas. In Pennsylvania, the Steelers' and Eagles’ rosters were so heavily depleted that some feared both clubs would shut down. Instead, they merged. For the duration of the 1943 season, these two franchises consolidated their squads into one, 25-man team nicknamed the “Steagles.”",
   ],
+  "Pittsburgh Steelers" => [
+    "The Pittsburgh Steelers actually began as the Pittsburgh Pirates in 1933 before owner Art Rooney changed their name to the Steelers in 1940. In 1943, they became the \"Steagles\" when they were merged with the Philadelphia Eagles as football rosters became depleted during World War II. The next year (1944) saw them similiarly merged with the Cardinals, and they became the oh-so-exciting \"Card-Pitt\" team.",
+    "Founded as the Pittsburgh Pirates by Art Rooney in 1933, the Steelers are the oldest franchise in the AFC and have remained in the hands of the Rooney family throughout.",
+    "The golden era for the Pittsburgh Steelers was their four Super Bowl wins from the mid 1970s with a team built on the formidable defense that became known as ‘The Steel Curtain’. Terry Bradshaw was the quarterback for all four victories and was twice named Super Bowl MVP.",
+  ],
+  "San Francisco 49ers" => [
+    "The San Francisco 49ers were founded, and joined the NFL, in 1949.",
+    ""
+  ],
   "Seattle Seahawks" => [
     "The Seattle Seahawks were originally owned by the Nordstrom family — yes, the same family who owned the upscale department store. When the Seahawks won the Super Bowl in 2014, the team classily presented John Nordstrom with a Super Bowl ring.",
     "When the Seahawks were created, a “name the team” contest received 20,365 entries and 1,742 different names.",
+  ],
+  "Tampa Bay Buccaneers" => [
+    "The Tampa Bay Buccaneers were established in 1974 then joined the NFL in 1976 as an expansion team, along with the Seattle Seahawks.",
+    "The Tampa Bay Buccaneers are owned by the Glazer family who also own Manchester United.",
   ],
   "Tennessee Titans" => [
     "The Tennessee Titans used to be known as the Houston Oilers, and played in Houston, Texas.  The Oilers were founded in 1960 as a charter member of the American Football League.",

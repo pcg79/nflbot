@@ -152,9 +152,18 @@ end
   "New Orleans Saints" => [
     "It took the New Orleans Saints 32 years to win their first playoff game.",
   ],
+  "Philadelphia Eagles" => [
+    "The Philadelphia Eagles joined the National Football League in 1933.",
+    "On October 22, 1939, the Eagles lost to the Brooklyn Football Dodgers (a club which no longer exists) by a final score of 23-14 in what was the very first televised NFL game.",
+    "World War II created a massive player shortage, with many pro footballers leaving their teams to fight overseas. In Pennsylvania, the Steelers' and Eagles’ rosters were so heavily depleted that some feared both clubs would shut down. Instead, they merged. For the duration of the 1943 season, these two franchises consolidated their squads into one, 25-man team nicknamed the “Steagles.”",
+  ],
   "Seattle Seahawks" => [
     "The Seattle Seahawks were originally owned by the Nordstrom family — yes, the same family who owned the upscale department store. When the Seahawks won the Super Bowl in 2014, the team classily presented John Nordstrom with a Super Bowl ring.",
     "When the Seahawks were created, a “name the team” contest received 20,365 entries and 1,742 different names.",
+  ],
+  "Tennessee Titans" => [
+    "The Tennessee Titans used to be known as the Houston Oilers, and played in Houston, Texas.  The Oilers were founded in 1960 as a charter member of the American Football League.",
+    "The Tennessee Titans moved from Texas to Tennessee in 1997 and played in Memphis for one season before moving to Nashville. For two seasons, the team was known as the Tennessee Oilers before changing its name to the Titans in 1999.",
   ],
   "Washington Redskins" => [
     "Art Monk held the single-season reception record (106) for eight years. Since it was broken in 1992, it has been surpassed more than 40 times.",

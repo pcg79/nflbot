@@ -30,3 +30,7 @@ nflbot [anything] fact about <team name> [anything]
 ```
 
 It'll tell you a random fact about \<team name\>.
+
+## Usage
+
+You need to run `db/migrate.rb` first to create the database and populate it.  Then...I don't know how to run it.  We'll find out.

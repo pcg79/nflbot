@@ -29,4 +29,4 @@ It'll tell you a random fact about your assigned team.  Again, if you do not hav
 nflbot [anything] fact about <team name> [anything]
 ```
 
-It'll tell you a random fact about <team name>.
+It'll tell you a random fact about \<team name\>.

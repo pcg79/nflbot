@@ -7,19 +7,19 @@ class NFLBot < SlackRubyBot::Bot
     client.say(text: "<@#{data.user}> - pong", channel: data.channel)
   end
 
-  command /(what\'s|which is) my team.*/, /(what|which) team(\'s| is) mine.*/ do |client, data, match|
+  command(/(what(’|')s|which is) my team/, /(what|which) team((’|')s| is) mine/) do |client, data, match|
     team = get_team(data.user)
     client.say(text: "<@#{data.user}>, your team is the *#{team}*", channel: data.channel)
   end
 
-  match /fact about my team/ do |client, data, match|
+  match /(what(’|')s| is) a fact about my team/ do |client, data, match|
     team = get_team(data.user)
     facts = find_facts(team)
     say_fact(client, team, facts, data.channel) if facts
   end
 
-  match /fact about (the )?(.*)/ do |client, data, match|
-    if team = match[2]
+  match /(what(’|')s| is) a fact about (the )?(.*)\?/ do |client, data, match|
+    if team = match[4]
       facts = find_facts(team)
       if facts
         say_fact(client, team, facts, data.channel)

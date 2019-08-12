@@ -9,3 +9,10 @@ group :development do
   gem 'irb'
   gem 'pry-byebug'
 end
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'vcr'
+  gem 'webmock'
+end

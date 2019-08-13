@@ -1,5 +1,4 @@
 require "slack-ruby-bot"
-require "sqlite3"
 
 module SlackNFLBot
   module Commands

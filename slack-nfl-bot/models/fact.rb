@@ -12,10 +12,10 @@ class Fact < Base
     end
 
     def say_fact(client, team, facts, channel)
-      if facts
+      if facts && !facts.empty?
         client.say(text: "Here's a fun fact about the *#{team}*: #{facts.sample}", channel: channel)
       else
-        client.say(text: "I don't have any facts about the *#{team}* :cry:", channel: data.channel)
+        client.say(text: "I don't have any facts about the *#{team}* :cry:", channel: channel)
       end
     end
 

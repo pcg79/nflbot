@@ -1,4 +1,4 @@
-class Fact
+class Fact < Base
   class << self
 
     def find_facts(team_name)
@@ -17,10 +17,6 @@ class Fact
       else
         client.say(text: "I don't have any facts about the *#{team}* :cry:", channel: data.channel)
       end
-    end
-
-    def database
-      SlackNFLBot::Database.database
     end
 
   end

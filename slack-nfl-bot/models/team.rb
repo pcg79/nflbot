@@ -1,4 +1,4 @@
-class Team
+class Team < Base
   class << self
 
     def get_team(slack_user_id)
@@ -25,10 +25,6 @@ class Team
       SQL
 
       rows.first
-    end
-
-    def database
-      SlackNFLBot::Database.database
     end
 
   end

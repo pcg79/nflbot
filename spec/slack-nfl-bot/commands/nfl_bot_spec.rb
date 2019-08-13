@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe NFLBot do
+describe SlackNFLBot::Commands::NFLBot, vcr: { cassette_name: 'nfl_commands' } do
   def app
-    NFLBot.instance
+    SlackNFLBot::App.new
   end
 
   it "assigns a team" do

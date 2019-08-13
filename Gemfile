@@ -5,6 +5,7 @@ gem 'async-websocket', '~>0.8.0'
 
 gem 'sqlite3'
 
+gem 'rake'
 # gem 'puma'
 # gem 'sinatra'
 # gem 'faraday_middleware', '0.10.1'

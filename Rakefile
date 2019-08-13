@@ -11,8 +11,5 @@ unless ENV['RACK_ENV'] == 'production'
     spec.pattern = FileList['spec/**/*_spec.rb']
   end
 
-  require 'rubocop/rake_task'
-  RuboCop::RakeTask.new
-
-  task default: [:rubocop, :spec]
+  task default: [:spec]
 end

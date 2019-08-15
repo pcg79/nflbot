@@ -10,9 +10,9 @@ gem 'sequel'
 gem 'pg'
 
 gem 'rake'
-# gem 'puma'
-# gem 'sinatra'
-# gem 'faraday_middleware', '0.10.1'
+gem 'puma'
+gem 'sinatra'
+gem 'faraday_middleware'
 
 
 group :development do

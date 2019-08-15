@@ -19,7 +19,7 @@ end; nil
 
 {
   "Washington Redskins" => [
-    "Art Monk held the single-season reception record (106) for eight years. Since it was broken in 1992, it has been surpassed more than 40 times.",
+    "Redskins fact!",
   ]
 }.each do |name, facts_array|
   facts_array.each do |fact|

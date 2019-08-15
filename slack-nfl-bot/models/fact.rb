@@ -1,19 +1,19 @@
 class Fact < Base
   class << self
 
-    def find_facts(team_name)
-      rows = database.execute <<-SQL
-        select fact from teams_facts tf join teams t
-          on tf.team_id = t.id
-          where lower(t.name) like lower('%#{team_name}%')
-      SQL
-
-      rows.first
+    def find_fact(team_name)
+      teams_facts = database[:teams_facts]
+      teams_facts.join(:teams, id: :team_id)
+        .where(
+          Sequel.like(:name, "%#{team_name}%", case_insensitive: true)
+        )
+        .order(Sequel.lit('RANDOM()'))
+        .get(:fact)
     end
 
-    def say_fact(client, team, facts, channel)
-      if facts && !facts.empty?
-        client.say(text: "Here's a fun fact about the *#{team}*: #{facts.sample}", channel: channel)
+    def say_fact(client, team, fact, channel)
+      if fact && !fact.empty?
+        client.say(text: "Here's a fun fact about the *#{team}*: #{fact}", channel: channel)
       else
         client.say(text: "I don't have any facts about the *#{team}* :cry:", channel: channel)
       end

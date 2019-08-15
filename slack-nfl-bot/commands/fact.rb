@@ -6,14 +6,14 @@ module SlackNFLBot
 
       match /(what(’|')s| is) a fact about my team/ do |client, data, match|
         team = ::Team.get_team(data.user)
-        facts = ::Fact.find_facts(team)
-        ::Fact.say_fact(client, team, facts, data.channel)
+        fact = ::Fact.find_fact(team)
+        ::Fact.say_fact(client, team, fact, data.channel)
       end
 
       match /(what(’|')s| is) a fact about (the )?(.*)\?/ do |client, data, match|
         if team = match[4]
-          facts = ::Fact.find_facts(team)
-          ::Fact.say_fact(client, team, facts, data.channel)
+          fact = ::Fact.find_fact(team)
+          ::Fact.say_fact(client, team, fact, data.channel)
         end
       end
 

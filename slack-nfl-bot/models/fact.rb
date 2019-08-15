@@ -12,6 +12,8 @@ class Fact < Base
     end
 
     def say_fact(client, team, fact, channel)
+      team = team.split(/(\W)/).map(&:capitalize).join
+
       if fact && !fact.empty?
         client.say(text: "Here's a fun fact about the *#{team}*: #{fact}", channel: channel)
       else

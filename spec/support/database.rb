@@ -1,20 +1,20 @@
 raise "Don't run outside of test env!" unless ENV['RACK_ENV'] == "test"
 
-require "sqlite3"
+require_relative "../../slack-nfl-bot/database"
 
-db = SQLite3::Database.new "db/test.db"
+db = SlackNFLBot::Database.database
 
-["teams", "employees_teams", "teams_facts"].each do |table|
-  db.execute "drop table #{table}"
-  rescue SQLite3::SQLException
-end
+db.drop_table :teams_facts
+db.drop_table :employees_teams
+db.drop_table :teams
 
-require File.join(File.dirname(__FILE__), '..', '..', 'db', 'migrate.rb')
+require_relative "../../db/migrate.rb"
 
 [
   "Washington Redskins"
 ].each_with_index do |name, index|
-  db.execute "insert into teams(id, name) values ( ?, ? )", [index+1, name]
+  teams = db[:teams]
+  teams.insert(id: index+1, name: name)
 end; nil
 
 {
@@ -23,6 +23,8 @@ end; nil
   ]
 }.each do |name, facts_array|
   facts_array.each do |fact|
-    db.execute "insert into teams_facts(team_id, fact) select id, ? from teams where name = ?", [fact, name]
+    teams_facts = db[:teams_facts]
+    teams = db[:teams]
+    teams_facts.insert(team_id: teams.where(name: name).get(:id), fact: fact)
   end
 end; nil

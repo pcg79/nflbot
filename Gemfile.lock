@@ -75,7 +75,6 @@ GEM
       gli
       hashie
       websocket-driver
-    sqlite3 (1.4.1)
     thread_safe (0.3.6)
     timers (4.3.0)
     tzinfo (1.2.5)
@@ -102,7 +101,6 @@ DEPENDENCIES
   rspec
   sequel
   slack-ruby-bot
-  sqlite3
   vcr
   webmock
 

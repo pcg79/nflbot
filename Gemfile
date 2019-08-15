@@ -4,7 +4,7 @@ gem 'slack-ruby-bot'
 gem 'async-websocket', '~>0.8.0'
 
 gem 'sequel'
-gem 'sqlite3'
+# gem 'sqlite3'
 gem 'pg'
 
 gem 'rake'

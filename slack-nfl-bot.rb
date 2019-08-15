@@ -1,0 +1,6 @@
+require 'slack-ruby-bot'
+require 'slack-nfl-bot/database'
+require 'slack-nfl-bot/version'
+require 'slack-nfl-bot/models'
+require 'slack-nfl-bot/commands'
+require 'slack-nfl-bot/app'

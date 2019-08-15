@@ -1,3 +1,5 @@
+require_relative "../about"
+
 module SlackNFLBot
   module Commands
     class Default < SlackRubyBot::Commands::Base

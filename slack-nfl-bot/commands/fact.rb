@@ -1,5 +1,3 @@
-require "slack-ruby-bot"
-
 module SlackNFLBot
   module Commands
     class Fact < SlackRubyBot::Commands::Base

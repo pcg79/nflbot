@@ -13,3 +13,5 @@ unless ENV['RACK_ENV'] == 'production'
 
   task default: [:spec]
 end
+
+Dir.glob('lib/tasks/*.rake').each { |r| load r}

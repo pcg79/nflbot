@@ -1,24 +1,25 @@
-require "sqlite3"
+require_relative "../slack-nfl-bot/database"
 
-db = SQLite3::Database.new "db/#{ENV['RACK_ENV']}.db"
+db = SlackNFLBot::Database.database
 
-db.execute <<-SQL
-  create table teams (
-    id int,
-    name varchar(50)
-  );
-SQL
+unless db.table_exists?(:teams)
+  db.create_table :teams do
+    primary_key :id
 
-db.execute <<-SQL
-  create table employees_teams (
-    slack_user_id varchar(20),
-    team_id int
-  );
-SQL
+    column :name, String
+  end
+end
 
-db.execute <<-SQL
-  create table teams_facts (
-    team_id int,
-    fact text
-  );
-SQL
+unless db.table_exists?(:employees_teams)
+  db.create_table :employees_teams do
+    column :slack_user_id, String
+    column :team_id, Integer
+  end
+end
+
+unless db.table_exists?(:teams_facts)
+  db.create_table :teams_facts do
+    column :team_id, Integer
+    column :fact, String
+  end
+end

@@ -38,6 +38,7 @@ GEM
     minitest (5.11.3)
     multipart-post (2.1.1)
     nio4r (2.4.0)
+    pg (1.1.4)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -63,6 +64,7 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
     safe_yaml (1.0.5)
+    sequel (5.23.0)
     slack-ruby-bot (0.12.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -93,10 +95,12 @@ PLATFORMS
 DEPENDENCIES
   async-websocket (~> 0.8.0)
   irb
+  pg
   pry-byebug
   rack-test
   rake
   rspec
+  sequel
   slack-ruby-bot
   sqlite3
   vcr

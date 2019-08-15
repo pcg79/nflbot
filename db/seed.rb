@@ -1,6 +1,6 @@
-require "sqlite3"
+require_relative "../slack-nfl-bot/database"
 
-db = SQLite3::Database.new "db/#{ENV['RACK_ENV']}.db"
+db = SlackNFLBot::Database.database
 
 [
   "Arizona Cardinals",
@@ -36,7 +36,8 @@ db = SQLite3::Database.new "db/#{ENV['RACK_ENV']}.db"
   "Tennessee Titans",
   "Washington Redskins"
 ].each_with_index do |name, index|
-  db.execute "insert into teams(id, name) values ( ?, ? )", [index+1, name]
+  teams = db[:teams]
+  teams.insert(id: index+1, name: name)
 end; nil
 
 # Preassign those we know
@@ -49,7 +50,9 @@ end; nil
   "U54SRH6MP" => "Houston Texans",       # Tamsin
   "U59A582VA" => "Washington Redskins",  # Pat
 }.each do |slack_user_id, team_name|
-  db.execute "insert into employees_teams(slack_user_id, team_id) select ?, id from teams where name = ?", [slack_user_id, team_name]
+  employees_teams = db[:employees_teams]
+  teams = db[:teams]
+  employees_teams.insert(slack_user_id: slack_user_id, team_id: teams.where(name: team_name).get(:id))
 end; nil
 
 {
@@ -169,6 +172,8 @@ end; nil
   ]
 }.each do |name, facts_array|
   facts_array.each do |fact|
-    db.execute "insert into teams_facts(team_id, fact) select id, ? from teams where name = ?", [fact, name]
+    teams_facts = db[:teams_facts]
+    teams = db[:teams]
+    teams_facts.insert(team_id: teams.where(name: name).get(:id), fact: fact)
   end
 end; nil

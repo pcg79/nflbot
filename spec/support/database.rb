@@ -18,6 +18,14 @@ require_relative "../../db/migrate.rb"
 end; nil
 
 {
+  "1" => "Washington Redskins"
+}.each do |slack_user_id, team_name|
+  employees_teams = db[:employees_teams]
+  teams = db[:teams]
+  employees_teams.insert(slack_user_id: slack_user_id, team_id: teams.where(name: team_name).get(:id))
+end; nil
+
+{
   "Washington Redskins" => [
     "Redskins fact!",
   ]

@@ -2,18 +2,15 @@ class Game
   attr_reader :week, :home_team, :away_team, :home_team_score, :away_team_score,
     :game_day, :game_time, :overtime, :status
 
-  # Example data from http://www.nfl.com/liveupdate/scorestrip/ss.xml
-  # <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
-  def initialize(week, data)
-    attributes = data.attributes
-    @week = week
-    @home_team = "#{data["h"]} #{data["hnn"].capitalize}"
-    @away_team = "#{data["v"]} #{data["vnn"].capitalize}"
-    @home_team_score = data["hs"]
-    @away_team_score = data["vs"]
-    @game_day = data["d"]
-    @game_time = data["t"]
-    @status = data["q"]
+  def initialize(game_params)
+    @week = game_params[:week]
+    @home_team = game_params[:home_team]
+    @away_team = game_params[:away_team]
+    @home_team_score = game_params[:home_team_score]
+    @away_team_score = game_params[:away_team_score]
+    @game_day = game_params[:game_day]
+    @game_time = game_params[:game_time]
+    @status = game_params[:status]
   end
 
   def to_s
@@ -30,7 +27,7 @@ class Game
   private
 
   def final?
-    status == "F"
+    status == "FINAL"
   end
 
   def overtime?

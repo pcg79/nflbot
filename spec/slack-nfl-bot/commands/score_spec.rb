@@ -6,13 +6,13 @@ describe SlackNFLBot::Commands::Score, vcr: { cassette_name: 'fact_commands' } d
   end
 
   def scores_url
-    File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_scores.xml")
+    File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_feed_scores.xml")
   end
 
   it "returns the latest score for all teams" do
     expect(Week).to receive(:scores_url).and_return(scores_url)
 
-    slack_message = "Latest scores:\nBAL Ravens (26) BEAT GB Packers (13)\nJAX Jaguars (10) LOST TO PHI Eagles (24)\nATL Falcons (10) LOST TO NYJ Jets (13) in overtime\nARI Cardinals (26) TIED OAK Raiders (26)\nDEN Broncos will play SF 49ers on Mon at 8:00"
+    slack_message = "Latest scores:\nCarolina Panthers will play Buffalo Bills on 08/16/2019 at 2019-08-16T16:00:00-07:00\nBaltimore Ravens (26) BEAT Green Bay Packers (13)\nWashington Redskins (13) LOST TO Cincinnati Bengals (23)\nArizona Cardinals (33) TIED Oakland Raiders (33)"
     expect(message: "nflbot scores", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 

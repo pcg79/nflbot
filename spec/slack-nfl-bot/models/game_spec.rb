@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Game do
-  let(:game) { described_class.new({
+  subject(:game) { described_class.new({
       week: 2,
       home_team: "Washington Redskins",
       away_team: "New England Patriots",

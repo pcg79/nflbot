@@ -15,6 +15,10 @@ class Week < Base
     games.map(&:to_s).join("\n")
   end
 
+  def find_game_by_team(team)
+    games.detect { |g| g.has_team?(team) }
+  end
+
   private
 
   def self.scores_url

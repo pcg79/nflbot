@@ -24,6 +24,10 @@ class Game
     end
   end
 
+  def has_team?(team)
+    home_team == team || away_team == team
+  end
+
   private
 
   def final?

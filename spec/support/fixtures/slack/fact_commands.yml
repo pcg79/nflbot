@@ -1,0 +1,1245 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 13:28:15 GMT
+      Etag:
+      - '"941-5903bf66960e2"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=1
+      Expires:
+      - Fri, 16 Aug 2019 13:28:39 GMT
+      Date:
+      - Fri, 16 Aug 2019 13:28:38 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 13:28:38 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:07:45 GMT
+      Etag:
+      - '"941-5903e30d46aa4"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=4
+      Expires:
+      - Fri, 16 Aug 2019 16:08:09 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:08:05 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:08:05 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:21:00 GMT
+      Etag:
+      - '"941-5903e60374b9d"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=10
+      Expires:
+      - Fri, 16 Aug 2019 16:21:21 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:21:11 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:21:11 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=9
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:34 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:34 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=8
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:35 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:35 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=8
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:35 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:35 GMT
+- request:
+    method: get
+    uri: http://www.nfl.com/liveupdate/scorestrip/ss.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Last-Modified:
+      - Fri, 16 Aug 2019 16:22:15 GMT
+      Etag:
+      - '"941-5903e64b1cbbc"'
+      Content-Type:
+      - application/xml
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=8
+      Expires:
+      - Fri, 16 Aug 2019 16:22:43 GMT
+      Date:
+      - Fri, 16 Aug 2019 16:22:35 GMT
+      Content-Length:
+      - '2369'
+      Connection:
+      - keep-alive
+      X-Akamai-Edgescape:
+      - country_code=GB
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <ss>
+          <gms w="2" y="2019" t="P" gd="1" bph="30">
+            <g eid="2019081554" gsis="57858" d="Thu" t="7:00" q="F" h="JAX" hnn="jaguars" hs="10" v="PHI" vnn="eagles" vs="24" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081552" gsis="57853" d="Thu" t="7:30" q="F" h="ATL" hnn="falcons" hs="10" v="NYJ" vnn="jets" vs="22" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081553" gsis="57854" d="Thu" t="7:30" q="F" h="BAL" hnn="ravens" hs="26" v="GB" vnn="packers" vs="13" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081555" gsis="57864" d="Thu" t="7:30" q="F" h="WAS" hnn="redskins" hs="13" v="CIN" vnn="bengals" vs="23" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081551" gsis="57852" d="Thu" t="8:00" q="F" h="ARI" hnn="cardinals" hs="26" v="OAK" vnn="raiders" vs="33" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081651" gsis="57855" d="Fri" t="7:00" q="P" h="CAR" hnn="panthers" hs="0" v="BUF" vnn="bills" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081652" gsis="57860" d="Fri" t="7:30" q="P" h="NYG" hnn="giants" hs="0" v="CHI" vnn="bears" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081653" gsis="57862" d="Fri" t="7:30" q="P" h="TB" hnn="buccaneers" hs="0" v="MIA" vnn="dolphins" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081752" gsis="57857" d="Sat" t="4:00" q="P" h="IND" hnn="colts" hs="0" v="CLE" vnn="browns" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081755" gsis="57863" d="Sat" t="7:00" q="P" h="TEN" hnn="titans" hs="0" v="NE" vnn="patriots" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081754" gsis="57861" d="Sat" t="7:30" q="P" h="PIT" hnn="steelers" hs="0" v="KC" vnn="chiefs" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081751" gsis="57856" d="Sat" t="8:00" q="P" h="HOU" hnn="texans" hs="0" v="DET" vnn="lions" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081753" gsis="57859" d="Sat" t="10:00" q="P" h="LA" hnn="rams" hs="0" v="DAL" vnn="cowboys" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081851" gsis="57865" d="Sun" t="4:00" q="P" h="LAC" hnn="chargers" hs="0" v="NO" vnn="saints" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081852" gsis="57866" d="Sun" t="8:00" q="P" h="MIN" hnn="vikings" hs="0" v="SEA" vnn="seahawks" vs="0" rz="0" ga="" gt="PRE"/>
+            <g eid="2019081951" gsis="57867" d="Mon" t="8:00" q="P" h="DEN" hnn="broncos" hs="0" v="SF" vnn="49ers" vs="0" rz="0" ga="" gt="PRE"/>
+          </gms>
+        </ss>
+    http_version: 
+  recorded_at: Fri, 16 Aug 2019 16:22:35 GMT
+recorded_with: VCR 5.0.0

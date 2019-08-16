@@ -15,7 +15,7 @@ class Week < Base
     games.map(&:to_s).join("\n")
   end
 
-  def find_by_team(team)
+  def find_game_by_team(team)
     games.detect { |g| g.has_team?(team) }
   end
 

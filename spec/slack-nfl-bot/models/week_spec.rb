@@ -20,13 +20,13 @@ describe Week do
     described_class.new
   end
 
-  context "#find_by_team" do
+  context "#find_game_by_team" do
     it "returns a game if the team is one of the participants" do
-      expect(week.find_by_team("Washington Redskins")).to eq game
+      expect(week.find_game_by_team("Washington Redskins")).to eq game
     end
 
     it "returns nil if no games had the team as a participant" do
-      expect(week.find_by_team("Cleveland Browns")).to be_nil
+      expect(week.find_game_by_team("Cleveland Browns")).to be_nil
     end
   end
 

@@ -14,6 +14,7 @@ gem 'puma'
 gem 'sinatra'
 gem 'faraday_middleware'
 
+gem 'libxml-ruby'
 
 group :development do
   gem 'irb'

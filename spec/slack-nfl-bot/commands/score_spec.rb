@@ -12,8 +12,7 @@ describe SlackNFLBot::Commands::Score, vcr: { cassette_name: 'fact_commands' } d
   it "returns the latest score for all teams" do
     expect(Week).to receive(:scores_url).and_return(scores_url)
 
-    slack_message = 'Latest scores:\nBAL Ravens (26) BEAT GB Packers (13)\nJAX Jaguars (10) LOST TO PHI Eagles (24)\nATL Falcons (10) LOST TO NYJ Jets (13) in overtime\nARI Cardinals (26) TIED OAK Raiders (26)\nDEN Broncos will play SF 49ers on Mon at 8:00'
-
+    slack_message = "Latest scores:\nBAL Ravens (26) BEAT GB Packers (13)\nJAX Jaguars (10) LOST TO PHI Eagles (24)\nATL Falcons (10) LOST TO NYJ Jets (13) in overtime\nARI Cardinals (26) TIED OAK Raiders (26)\nDEN Broncos will play SF 49ers on Mon at 8:00"
     expect(message: "nflbot scores", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 

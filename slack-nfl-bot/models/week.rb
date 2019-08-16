@@ -34,8 +34,7 @@ class Week < Base
   end
 
   def xml_data
-    data = open(Week.scores_url).read
-    @xml_data ||= XML::Document.string(data)
+    @xml_data ||= XML::Document.string(open(Week.scores_url).read)
   end
 
 end

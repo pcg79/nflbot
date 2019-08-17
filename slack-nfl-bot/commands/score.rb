@@ -9,7 +9,7 @@ module SlackNFLBot
       end
 
       match /how('d| did) my team do\??/ do |client, data, match|
-        team = ::Team.get_team(slack_user_id(data))
+        team = ::Team.get_team(data)
         week = ::Week.new
 
         if game = week.find_game_by_team(team)
@@ -19,11 +19,6 @@ module SlackNFLBot
         end
 
         client.say(text: message, channel: data.channel)
-      end
-
-      # Only did this so I could override the method in the tests.  I hate that.
-      def self.slack_user_id(data)
-        data.user
       end
 
     end

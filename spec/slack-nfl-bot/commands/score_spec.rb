@@ -19,7 +19,7 @@ describe SlackNFLBot::Commands::Score do
   context "it returns the latest score for your assigned team" do
     it "with a question mark" do
       expect(Week).to receive(:scores_url).and_return(scores_url)
-      expect(::Team).to receive(:find_team_by_slack_user_id).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
       slack_message = "Washington Redskins (13) LOST TO Cincinnati Bengals (23)"
       expect(message: "nflbot how did my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -27,7 +27,7 @@ describe SlackNFLBot::Commands::Score do
 
     it "without a question mark" do
       expect(Week).to receive(:scores_url).and_return(scores_url)
-      expect(::Team).to receive(:find_team_by_slack_user_id).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
       slack_message = "Washington Redskins (13) LOST TO Cincinnati Bengals (23)"
       expect(message: "nflbot how did my team do", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -36,7 +36,7 @@ describe SlackNFLBot::Commands::Score do
 
   it "returns a message if your team didn't play" do
     expect(Week).to receive(:scores_url).and_return(scores_url)
-    expect(::Team).to receive(:find_team_by_slack_user_id).and_return("Cleveland Browns")
+    expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
 
     slack_message = "Looks like your team didn't play this week"
     expect(message: "nflbot how'd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)

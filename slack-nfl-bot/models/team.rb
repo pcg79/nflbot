@@ -1,7 +1,8 @@
 class Team < Base
   class << self
 
-    def get_team(slack_user_id)
+    def get_team(user)
+      slack_user_id = slack_user_id(user)
       find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id)
     end
 

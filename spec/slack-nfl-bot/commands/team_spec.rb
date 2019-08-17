@@ -8,21 +8,21 @@ describe SlackNFLBot::Commands::Team, vcr: { cassette_name: 'team_commands' } do
   context "assigns a random team if none assigned" do
     context "using 'what'" do
       it "and a contraction" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot what's my team", channel: 'channel').to respond_with_slack_message(slack_message)
       end
 
       it "and no contraction" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot what is my team", channel: 'channel').to respond_with_slack_message(slack_message)
       end
 
       it "and a question mark" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot what's my team?", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -31,21 +31,21 @@ describe SlackNFLBot::Commands::Team, vcr: { cassette_name: 'team_commands' } do
 
     context "using 'which'" do
       it "and a contraction" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot which's my team", channel: 'channel').to respond_with_slack_message(slack_message)
       end
 
       it "and no contraction" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot which is my team", channel: 'channel').to respond_with_slack_message(slack_message)
       end
 
       it "and a question mark" do
-        expect(SlackNFLBot::Commands::Team).to receive(:slack_user_id).and_return(1)
+        expect(::Team).to receive(:slack_user_id).and_return(1)
 
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot which is my team?", channel: 'channel').to respond_with_slack_message(slack_message)

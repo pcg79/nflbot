@@ -6,6 +6,10 @@ require 'slack-nfl-bot/models/game'
 class Week < Base
   attr_reader :week_number, :games
 
+  def self.current_week
+    self.new
+  end
+
   def initialize
     @week_number = week_number
     @games = parse_games

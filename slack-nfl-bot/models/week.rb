@@ -25,10 +25,6 @@ class Week < Base
 
   private
 
-  def self.scores_url
-    "http://www.nfl.com/feeds-rs/scores"
-  end
-
   def parse_games
     [].tap do |games|
       xml_data.find("/scoresFeed/gameScores/gameScore").each do |game_score_element|
@@ -61,8 +57,8 @@ class Week < Base
     end
   end
 
-  def xml_data
-    @xml_data ||= XML::Document.string(open(Week.scores_url).read)
+  def self.endpoint
+    "http://www.nfl.com/feeds-rs/scores"
   end
 
 end

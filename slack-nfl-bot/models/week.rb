@@ -1,17 +1,14 @@
 require 'open-uri'
 require 'xml'
 
-require 'slack-nfl-bot/models/game'
-
 class Week < Base
-  attr_reader :week_number, :games
+  attr_reader :games
 
   def self.current_week
     self.new
   end
 
   def initialize
-    @week_number = week_number
     @games = parse_games
   end
 
@@ -24,10 +21,6 @@ class Week < Base
   end
 
   private
-
-  def self.scores_url
-    "http://www.nfl.com/feeds-rs/scores"
-  end
 
   def parse_games
     [].tap do |games|
@@ -61,8 +54,8 @@ class Week < Base
     end
   end
 
-  def xml_data
-    @xml_data ||= XML::Document.string(open(Week.scores_url).read)
+  def self.endpoint
+    "http://www.nfl.com/feeds-rs/scores"
   end
 
 end

@@ -14,7 +14,6 @@ describe Week do
   }
 
   subject(:week) do
-    expect_any_instance_of(Week).to receive(:week_number).and_return(2)
     expect_any_instance_of(Week).to receive(:parse_games).and_return([game])
 
     described_class.new
@@ -32,7 +31,6 @@ describe Week do
 
   context "#current_week" do
     it "returns an instance with the current week info" do
-      expect_any_instance_of(Week).to receive(:week_number).and_return(2)
       expect_any_instance_of(Week).to receive(:parse_games).and_return([game])
 
       expect(Week.current_week).to be_an_instance_of Week

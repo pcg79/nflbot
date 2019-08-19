@@ -1,4 +1,32 @@
 class Team < Base
+
+  attr_reader :full_name, :division_abbr, :conference_abbr,
+    :wins, :losses, :ties,
+    :conf_wins, :conf_losses, :conf_ties,
+    :division_wins, :division_losses, :division_ties,
+    :division_rank, :conference_rank
+
+  def initialize(params)
+    @full_name = params[:full_name]
+    @division_abbr = params[:division_abbr]
+    @conference_abbr = params[:conference_abbr]
+
+    @wins = params[:wins].to_i
+    @losses = params[:losses].to_i
+    @ties = params[:ties].to_i
+
+    @conf_wins = params[:conf_wins].to_i
+    @conf_losses = params[:conf_losses].to_i
+    @conf_ties = params[:conf_ties].to_i
+
+    @division_wins = params[:division_wins].to_i
+    @division_losses = params[:division_losses].to_i
+    @division_ties = params[:division_ties].to_i
+
+    @division_rank = params[:division_rank].to_i
+    @conference_rank = params[:conference_rank].to_i
+  end
+
   class << self
 
     def get_team(user)

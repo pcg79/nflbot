@@ -5,7 +5,6 @@ class Base
   end
 
   class << self
-
     def slack_user_id(data)
       data.user
     end
@@ -13,6 +12,5 @@ class Base
     def database
       SlackNFLBot::Database.database
     end
-
   end
 end

@@ -1,3 +1,4 @@
 .env
 production.db
 test.db
+scratch.rb

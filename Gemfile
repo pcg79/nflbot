@@ -15,6 +15,7 @@ gem 'sinatra'
 gem 'faraday_middleware'
 
 gem 'libxml-ruby'
+gem 'terminal-table'
 
 group :development do
   gem 'irb'

@@ -47,7 +47,7 @@ describe Standings do
   end
 
   subject(:standings) do
-    expect_any_instance_of(Standings).to receive(:parse_standings).and_return(teams)
+    expect_any_instance_of(Standings).to receive(:parse_standings_feed).and_return(teams)
 
     described_class.new
   end
@@ -55,7 +55,7 @@ describe Standings do
   context "#to_s" do
 
     it "returns the teams in the right order" do
-      expected_output = "NFE | 1 | NFC East Team 1\nNFE | 2 | NFC East Team 2"
+      expected_output = "| NFE | 1 | NFC East Team 1 |\n| NFE | 2 | NFC East Team 2 |"
       expect(standings.to_s).to eq expected_output
     end
   end

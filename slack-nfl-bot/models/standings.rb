@@ -24,7 +24,7 @@ class Standings < Base
       end
     end.compact
 
-    Terminal::Table.new(rows: table[0..-2], style: { border_top: false, border_bottom: false }).to_s
+    "```#{Terminal::Table.new(rows: table[0..-2], style: { border_top: false, border_bottom: false }).to_s}```"
   end
 
   private

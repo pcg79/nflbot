@@ -5,8 +5,7 @@ describe Week do
       week: 2,
       home_team: "Washington Redskins",
       away_team: "New England Patriots",
-      game_day: "Sun",
-      game_time: "16:00",
+      game_iso_time: "2019-08-16T16:00:00-07:00",
       status: "FINAL",
       home_team_score: "21",
       away_team_score: "0"

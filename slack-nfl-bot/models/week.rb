@@ -30,8 +30,7 @@ class Week < Base
           week: game_data_attrs["week"],
           home_team: game_data_attrs["homeDisplayName"],
           away_team: game_data_attrs["visitorDisplayName"],
-          game_day: game_data_attrs["gameDate"],
-          game_time: game_data_attrs["isoTime"],
+          game_iso_time: game_data_attrs["isoTime"],
         }
 
         # /score only exists if the game has started

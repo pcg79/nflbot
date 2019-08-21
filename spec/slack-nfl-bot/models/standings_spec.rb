@@ -52,11 +52,11 @@ describe Standings do
     described_class.new
   end
 
-  context "#to_s" do
+  context "#print" do
 
     it "returns the teams in the right order" do
-      expected_output = "| NFE | 1 | NFC East Team 1 |\n| NFE | 2 | NFC East Team 2 |"
-      expect(standings.to_s).to eq expected_output
+      expected_output = "```| NFC East            |\n| 1 | NFC East Team 1 |\n| 2 | NFC East Team 2 |\n+---+-----------------+\n| NFC West            |\n| 1 | NFC West Team 1 |```"
+      expect(standings.print).to eq expected_output
     end
   end
 

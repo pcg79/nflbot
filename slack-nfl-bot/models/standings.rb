@@ -11,7 +11,7 @@ class Standings < Base
     @teams = parse_standings_feed
   end
 
-  def to_s(division=nil)
+  def print
     table = [].tap do |rows|
       group_by_division_and_sort_by_rank.each do |division_array|
         div, teams = division_array

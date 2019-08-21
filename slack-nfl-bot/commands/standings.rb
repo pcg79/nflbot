@@ -4,7 +4,7 @@ module SlackNFLBot
 
       command "standings" do |client, data, match|
         standings = ::Standings.latest
-        client.say(text: "Latest standings:\n#{standings.to_s}", channel: data.channel)
+        client.say(text: "Latest standings:\n#{standings.print}", channel: data.channel)
       end
 
     end

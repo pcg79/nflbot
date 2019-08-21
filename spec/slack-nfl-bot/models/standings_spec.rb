@@ -6,7 +6,7 @@ describe Standings do
       Team.new(
         full_name: "NFC East Team 1",
         conference_abbr: "NFC",
-        division_abbr: "NFE",
+        division_abbr: "NCE",
 
         wins: 1,
         losses: 0,
@@ -26,7 +26,7 @@ describe Standings do
       Team.new(
         full_name: "NFC East Team 2",
         conference_abbr: "NFC",
-        division_abbr: "NFE",
+        division_abbr: "NCE",
 
         wins: 0,
         losses: 1,
@@ -42,6 +42,26 @@ describe Standings do
 
         conference_rank: 2,
         division_rank: 2,
+      ),
+      Team.new(
+        full_name: "NFC West Team 1",
+        conference_abbr: "NFC",
+        division_abbr: "NCW",
+
+        wins: 1,
+        losses: 0,
+        ties: 0,
+
+        conf_wins: 1,
+        conf_losses: 0,
+        conf_ties: 0,
+
+        division_wins: 1,
+        division_losses: 0,
+        division_ties: 0,
+
+        conference_rank: 1,
+        division_rank: 1,
       ),
     ]
   end

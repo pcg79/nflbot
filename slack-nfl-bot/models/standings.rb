@@ -3,6 +3,17 @@ require 'terminal-table'
 class Standings < Base
   attr_reader :teams
 
+  DIVISIONS = {
+    "ACE" => "AFC East",
+    "ACN" => "AFC North",
+    "ACS" => "AFC South",
+    "ACW" => "AFC West",
+    "NCE" => "NFC East",
+    "NCN" => "NFC North",
+    "NCS" => "NFC South",
+    "NCW" => "NFC West",
+  }
+
   def self.latest
     self.new
   end
@@ -15,19 +26,28 @@ class Standings < Base
     table = [].tap do |rows|
       group_by_division_and_sort_by_rank.each do |division_array|
         div, teams = division_array
-        if (division && division == div) || division.nil?
-          teams.each do |team|
-            rows << [div, team.division_rank, team.full_name]
-          end
+
+        if !rows.empty?
+          rows << :separator
         end
-        rows << :separator
+
+        rows << [{ value: division_full_name(div), colspan: 2 }]
+
+        teams.each do |team|
+          rows << [team.division_rank, team.full_name]
+        end
       end
     end.compact
 
-    "```#{Terminal::Table.new(rows: table[0..-2], style: { border_top: false, border_bottom: false }).to_s}```"
+    "```#{Terminal::Table.new(rows: table, style: { border_top: false, border_bottom: false }).to_s}```"
   end
 
   private
+
+  def division_full_name(division_abbr)
+    DIVISIONS[division_abbr]
+  end
+
 
   # <standingsFeed>
   #   <season>2019</season>

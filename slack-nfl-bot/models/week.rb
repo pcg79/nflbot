@@ -55,7 +55,7 @@ class Week < Base
   end
 
   def self.endpoint
-    "http://www.nfl.com/feeds-rs/scores"
+    "http://www.nfl.com/feeds-rs/scores.xml"
   end
 
 end

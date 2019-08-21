@@ -97,6 +97,6 @@ class Standings < Base
   end
 
   def self.endpoint
-    "http://www.nfl.com/feeds-rs/standings"
+    "http://www.nfl.com/feeds-rs/standings.xml"
   end
 end

@@ -27,4 +27,5 @@ group :test do
   gem 'rspec'
   gem 'vcr'
   gem 'webmock'
+  gem 'pry-byebug'
 end

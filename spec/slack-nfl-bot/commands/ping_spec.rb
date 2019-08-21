@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SlackNFLBot::Commands::Ping, vcr: { cassette_name: 'ping_commands' } do
+describe SlackNFLBot::Commands::Ping do
   def app
     SlackNFLBot::App.new
   end

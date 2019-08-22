@@ -10,7 +10,8 @@ class Game
     @away_team = game_params[:away_team]
     @home_team_score = game_params[:home_team_score]
     @away_team_score = game_params[:away_team_score]
-    @game_iso_time = Time.iso8601(game_params[:game_iso_time])
+
+    @game_iso_time = get_game_time(game_params[:game_iso_time])
     @status = game_params[:status]
   end
 
@@ -30,6 +31,18 @@ class Game
   end
 
   private
+
+  def get_game_time(game_iso_time)
+    # Amazingly the NFL api returns iso time as a string ("2019-08-22T16:00:00-07:00") from the xml feed
+    # and an int in millis (1566514800000) from the json feed.  So we have to deal with that until I
+    # convert to using all json
+
+    if game_iso_time.is_a?(String)
+      Time.iso8601(game_iso_time)
+    else
+      Time.at(game_iso_time / 1000.0)
+    end
+  end
 
   def game_day
     game_iso_time.strftime("%A")

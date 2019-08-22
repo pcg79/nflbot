@@ -31,9 +31,11 @@ class Week < Base
   private
 
   def parse_games
+    json_data = JSON.load(open(self.class.json_endpoint))
+
     [].tap do |games|
-      xml_data.find("/scoresFeed/gameScores/gameScore").each do |game_score_element|
-        game_data_attrs = game_score_element.find_first("gameSchedule").attributes
+      json_data["gameScores"].each do |game_score|
+        game_data_attrs = game_score["gameSchedule"]
         game_params = {
           week: game_data_attrs["week"],
           home_team: game_data_attrs["homeDisplayName"],
@@ -42,13 +44,12 @@ class Week < Base
         }
 
         # /score only exists if the game has started
-        if score_element = game_score_element.find_first("score")
-          score_element_attrs = score_element.attributes
-          home_team_attrs = score_element.find_first("homeTeamScore").attributes
-          away_team_attrs = score_element.find_first("visitorTeamScore").attributes
+        if score_element = game_score["score"]
+          home_team_attrs = score_element["homeTeamScore"]
+          away_team_attrs = score_element["visitorTeamScore"]
 
           score_params = {
-            status: score_element_attrs["phase"],
+            status: score_element["phase"],
             home_team_score: home_team_attrs["pointTotal"],
             away_team_score: away_team_attrs["pointTotal"],
           }
@@ -103,6 +104,7 @@ class Week < Base
 
     # If current week is 1 in regular season, we need to get week 4 of preseason
     # If current week is 1 in preseason, we can get week 0 (Hall of Fame game)
+    # TODO: Test this logic
     if current_week == 1 && current_season_type == "REG"
       previous_week = 4
       previous_week_season_type = "PRE"
@@ -116,6 +118,10 @@ class Week < Base
 
   def self.endpoint
     "http://www.nfl.com/feeds-rs/scores.xml"
+  end
+
+  def self.json_endpoint
+    "http://www.nfl.com/feeds-rs/scores.json"
   end
 
   def self.current_week_endpoint

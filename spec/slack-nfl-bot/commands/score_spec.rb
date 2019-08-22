@@ -6,36 +6,36 @@ describe SlackNFLBot::Commands::Score do
   end
 
   def scores_url
-    File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_feed_scores.xml")
+    File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_scores.json")
   end
 
   it "returns the latest score for all teams" do
-    expect(::Week).to receive(:endpoint).and_return(scores_url)
+    expect(::Week).to receive(:json_endpoint).and_return(scores_url)
 
-    slack_message = "Latest scores:\n*Carolina Panthers* will play *Buffalo Bills* on Friday at 16:00:00 \n*Baltimore Ravens* (26) BEAT *Green Bay Packers* (13)\n*Washington Redskins* (13) LOST TO *Cincinnati Bengals* (23)\n*Arizona Cardinals* (33) TIED *Oakland Raiders* (33)"
+    slack_message = "Latest scores:\n*Jacksonville Jaguars* (10) LOST TO *Philadelphia Eagles* (24)\n*Atlanta Falcons* (10) LOST TO *New York Jets* (22)\n*Cincinnati Bengals* will play *New York Giants* on Friday at 00:00:00 BST\n*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
     expect(message: "nflbot scores", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 
   context "it returns the latest score for your assigned team" do
     it "with a question mark" do
-      expect(Week).to receive(:endpoint).and_return(scores_url)
+      expect(Week).to receive(:json_endpoint).and_return(scores_url)
       expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
-      slack_message = "*Washington Redskins* (13) LOST TO *Cincinnati Bengals* (23)"
+      slack_message = "*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
       expect(message: "nflbot how did my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
     end
 
     it "without a question mark" do
-      expect(Week).to receive(:endpoint).and_return(scores_url)
+      expect(Week).to receive(:json_endpoint).and_return(scores_url)
       expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
-      slack_message = "*Washington Redskins* (13) LOST TO *Cincinnati Bengals* (23)"
+      slack_message = "*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
       expect(message: "nflbot how did my team do", channel: 'channel').to respond_with_slack_message(slack_message)
     end
   end
 
   it "returns a message if your team didn't play" do
-    expect(Week).to receive(:endpoint).and_return(scores_url)
+    expect(Week).to receive(:json_endpoint).and_return(scores_url)
     expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
 
     slack_message = "Looks like your team didn't play this week"

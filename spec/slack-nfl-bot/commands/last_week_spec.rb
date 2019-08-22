@@ -22,4 +22,14 @@ describe SlackNFLBot::Commands::LastWeek do
     expect(message: "nflbot last week", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 
+  it "returns last week's score for your team" do
+    slack_message = "*Washington Redskins* (13) LOST TO *Cincinnati Bengals* (23)"
+
+    expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+    expect(::Week).to receive(:week_specific_scores_endpoint).and_return(week_2_scores_url)
+    expect(::Week).to receive(:current_week_endpoint).and_return(current_week_url)
+
+    expect(message: "nflbot how did my team do last week", channel: 'channel').to respond_with_slack_message(slack_message)
+  end
+
 end

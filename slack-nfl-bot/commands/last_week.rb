@@ -1,5 +1,3 @@
-require_relative "../about"
-
 module SlackNFLBot
   module Commands
     class LastWeek < SlackRubyBot::Commands::Base

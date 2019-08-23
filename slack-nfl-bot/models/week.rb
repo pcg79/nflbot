@@ -31,10 +31,10 @@ class Week < Base
   private
 
   def parse_games
-    json_data = JSON.load(open(self.class.json_endpoint))
+    games_data = json_data
 
     [].tap do |games|
-      json_data["gameScores"].each do |game_score|
+      games_data["gameScores"].each do |game_score|
         game_data_attrs = game_score["gameSchedule"]
         game_params = {
           week: game_data_attrs["week"],
@@ -66,7 +66,7 @@ class Week < Base
     current_season = Date.today.year
     previous_week_season_type, previous_week = get_previous_week
     scores_url = self.class.week_specific_scores_endpoint(current_season, previous_week_season_type, previous_week)
-    scores_json = JSON.load(open(scores_url))
+    scores_json = json_data(scores_url)
 
     [].tap do |games|
       scores_json["gameScores"].each do |game_score|
@@ -98,7 +98,7 @@ class Week < Base
   end
 
   def get_previous_week
-    current_week_json = JSON.load(open(self.class.current_week_endpoint))
+    current_week_json = json_data(self.class.current_week_endpoint)
     current_week = current_week_json["week"]
     current_season_type = current_week_json["seasonType"]
 
@@ -114,10 +114,6 @@ class Week < Base
     end
 
     return previous_week_season_type, previous_week
-  end
-
-  def self.endpoint
-    "http://www.nfl.com/feeds-rs/scores.xml"
   end
 
   def self.json_endpoint

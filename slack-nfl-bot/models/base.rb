@@ -1,7 +1,8 @@
 class Base
 
-  def xml_data
-    XML::Document.string(open(self.class.endpoint).read)
+  def json_data(endpoint=nil)
+    endpoint ||= self.class.json_endpoint
+    JSON.load(open(endpoint))
   end
 
   class << self

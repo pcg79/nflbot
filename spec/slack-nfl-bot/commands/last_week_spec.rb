@@ -17,7 +17,7 @@ describe SlackNFLBot::Commands::LastWeek do
     expect(::Week).to receive(:week_specific_scores_endpoint).and_return(week_2_scores_url)
     expect(::Week).to receive(:current_week_endpoint).and_return(current_week_url)
 
-    slack_message = "Last week's scores:\nJacksonville Jaguars (10)\n\n*Philadelphia Eagles* (24)\n\nFINAL\n\nAtlanta Falcons (10)\n\n*New York Jets* (22)\n\nFINAL\n\nBaltimore Ravens (26)\n\n*Green Bay Packers* (13)\n\nFINAL\n\nWashington Redskins (13)\n\n*Cincinnati Bengals* (23)\n\nFINAL\n\nArizona Cardinals (26)\n\n*Oakland Raiders* (33)\n\nFINAL\n\nCarolina Panthers (14)\n\n*Buffalo Bills* (27)\n\nFINAL\n\nNew York Giants (32)\n\n*Chicago Bears* (13)\n\nFINAL\n\nTampa Bay Buccaneers (16)\n\n*Miami Dolphins* (14)\n\nFINAL\n\nIndianapolis Colts (18)\n\n*Cleveland Browns* (21)\n\nFINAL\n\nTennessee Titans (17)\n\n*New England Patriots* (22)\n\nFINAL\n\nPittsburgh Steelers (17)\n\n*Kansas City Chiefs* (7)\n\nFINAL\n\nHouston Texans (30)\n\n*Detroit Lions* (23)\n\nFINAL\n\nLos Angeles Rams (10)\n\n*Dallas Cowboys* (14)\n\nFINAL\n\nLos Angeles Chargers (17)\n\n*New Orleans Saints* (19)\n\nFINAL\n\nMinnesota Vikings (25)\n\n*Seattle Seahawks* (19)\n\nFINAL\n\nDenver Broncos (15)\n\n*San Francisco 49ers* (24)\n\nFINAL\n"
+    slack_message = "Last week's scores:\n*Philadelphia Eagles* (24)\nJacksonville Jaguars (10)\n\nFINAL\n\n*New York Jets* (22)\nAtlanta Falcons (10)\n\nFINAL\n\nGreen Bay Packers (13)\n*Baltimore Ravens* (26)\n\nFINAL\n\n*Cincinnati Bengals* (23)\nWashington Redskins (13)\n\nFINAL\n\n*Oakland Raiders* (33)\nArizona Cardinals (26)\n\nFINAL\n\n*Buffalo Bills* (27)\nCarolina Panthers (14)\n\nFINAL\n\nChicago Bears (13)\n*New York Giants* (32)\n\nFINAL\n\nMiami Dolphins (14)\n*Tampa Bay Buccaneers* (16)\n\nFINAL\n\n*Cleveland Browns* (21)\nIndianapolis Colts (18)\n\nFINAL\n\n*New England Patriots* (22)\nTennessee Titans (17)\n\nFINAL\n\nKansas City Chiefs (7)\n*Pittsburgh Steelers* (17)\n\nFINAL\n\nDetroit Lions (23)\n*Houston Texans* (30)\n\nFINAL\n\n*Dallas Cowboys* (14)\nLos Angeles Rams (10)\n\nFINAL\n\n*New Orleans Saints* (19)\nLos Angeles Chargers (17)\n\nFINAL\n\nSeattle Seahawks (19)\n*Minnesota Vikings* (25)\n\nFINAL\n\n*San Francisco 49ers* (24)\nDenver Broncos (15)\n\nFINAL\n"
     expect(message: "nflbot last week", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 
@@ -26,7 +26,7 @@ describe SlackNFLBot::Commands::LastWeek do
     expect(::Week).to receive(:week_specific_scores_endpoint).and_return(week_2_scores_url)
     expect(::Week).to receive(:current_week_endpoint).and_return(current_week_url)
 
-    slack_message = "*Washington Redskins* (13) LOST TO *Cincinnati Bengals* (23)"
+    slack_message = "*Cincinnati Bengals* (23)\nWashington Redskins (13)\n\nFINAL\n"
     expect(message: "nflbot how'd my team do last week", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 

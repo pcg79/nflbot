@@ -16,13 +16,22 @@ class Game
   end
 
   def to_s
-    str = ""
     if final? || (overtime? && tie?)
-      "*#{home_team}* (#{home_team_score}) #{result} *#{away_team}* (#{away_team_score})"
+      <<~SCORE
+      #{format_winner(home_team, away_team, home_team_score, away_team_score)}
+      FINAL
+      SCORE
     elsif overtime?
-      "*#{home_team}* (#{home_team_score}) #{result} *#{away_team}* (#{away_team_score}) in overtime"
+      <<~SCORE
+      #{format_winner(home_team, away_team, home_team_score, away_team_score)}
+      FINAL
+      SCORE
     else
-      "*#{home_team}* will play *#{away_team}* on #{game_day} at #{game_time}"
+      <<~SCORE
+      #{away_team}
+      #{home_team}
+      #{game_day}, #{game_time}
+      SCORE
     end
   end
 
@@ -31,6 +40,19 @@ class Game
   end
 
   private
+
+  def format_winner(home_team, away_team, home_team_score, away_team_score)
+    if home_team_score >= away_team_score
+      home_team = "*#{home_team}*"
+    elsif away_team_score >= home_team_score
+      away_team = "*#{away_team}*"
+    end
+
+    <<~SCORE
+    #{away_team} (#{away_team_score})
+    #{home_team} (#{home_team_score})
+    SCORE
+  end
 
   def get_game_time(game_iso_time)
     # Amazingly the NFL api returns iso time as a string ("2019-08-22T16:00:00-07:00") from the xml feed

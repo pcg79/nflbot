@@ -6,7 +6,7 @@ describe SlackNFLBot::Commands::Default, vcr: { cassette_name: 'about_commands' 
   end
 
   it "returns the ABOUT message" do
-    slack_message = <<~ABOUT
+    slack_message = <<~ABOUT.chomp
       NFLBot
       Version: #{SlackNFLBot::VERSION}
       https://github.com/pcg79/nflbot

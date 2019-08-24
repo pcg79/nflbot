@@ -48,7 +48,7 @@ class Game
       away_team = "*#{away_team}*"
     end
 
-    <<~SCORE
+    <<~SCORE.chomp
     #{away_team} (#{away_team_score})
     #{home_team} (#{home_team_score})
     SCORE

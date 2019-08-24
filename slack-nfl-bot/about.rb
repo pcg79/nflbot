@@ -1,5 +1,5 @@
 module SlackNFLBot
-  ABOUT = <<~ABOUT
+  ABOUT = <<~ABOUT.chomp
     NFLBot
     Version: #{SlackNFLBot::VERSION}
     https://github.com/pcg79/nflbot

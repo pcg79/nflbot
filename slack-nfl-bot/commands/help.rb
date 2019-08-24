@@ -2,7 +2,7 @@ module SlackNFLBot
   module Commands
     class Help < SlackRubyBot::Commands::Base
       command 'help' do |client, data, _match|
-        help_message = <<~HELP
+        help_message = <<~HELP.chomp
         Bot for all things* NFL
 
         *what's my team* (and variations) - Tells you your team if you have one, assigns you one if you don't.

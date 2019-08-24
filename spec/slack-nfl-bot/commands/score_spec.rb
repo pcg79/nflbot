@@ -12,7 +12,7 @@ describe SlackNFLBot::Commands::Score do
   it "returns the latest score for all teams" do
     expect(::Week).to receive(:json_endpoint).and_return(scores_url)
 
-    slack_message = "Latest scores:\n*Jacksonville Jaguars* (10) LOST TO *Philadelphia Eagles* (24)\n*Atlanta Falcons* (10) LOST TO *New York Jets* (22)\n*Cincinnati Bengals* will play *New York Giants* on Friday at 00:00:00 BST\n*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
+    slack_message = "Latest scores:\nJacksonville Jaguars (10)\n\n*Philadelphia Eagles* (24)\n\nFINAL\n\nAtlanta Falcons (10)\n\n*New York Jets* (22)\n\nFINAL\n\n*Cincinnati Bengals*\n*New York Giants*\nFriday, 00:00:00 BST\n\n*Atlanta Falcons*\n*Washington Redskins*\nFriday, 00:30:00 BST\n"
     expect(message: "nflbot scores", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 
@@ -21,7 +21,7 @@ describe SlackNFLBot::Commands::Score do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
       expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
-      slack_message = "*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
+      slack_message = "*Atlanta Falcons*\n*Washington Redskins*\nFriday, 00:30:00 BST\n"
       expect(message: "nflbot how did my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
     end
 
@@ -29,7 +29,7 @@ describe SlackNFLBot::Commands::Score do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
       expect(::Team).to receive(:get_team).and_return("Washington Redskins")
 
-      slack_message = "*Atlanta Falcons* will play *Washington Redskins* on Friday at 00:30:00 BST"
+      slack_message = "*Atlanta Falcons*\n*Washington Redskins*\nFriday, 00:30:00 BST\n"
       expect(message: "nflbot how did my team do", channel: 'channel').to respond_with_slack_message(slack_message)
     end
   end

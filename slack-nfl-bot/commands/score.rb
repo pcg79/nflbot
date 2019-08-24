@@ -5,7 +5,7 @@ module SlackNFLBot
       command "scores" do |client, data, match|
         week = ::Week.current_week
 
-        client.say(text: "Latest scores:\n#{week.all_scores}", channel: data.channel, thread_ts: data.thread_ts || data.ts)
+        client.say(text: "Latest scores:\n#{week.all_scores.chomp}", channel: data.channel, thread_ts: data.thread_ts || data.ts)
       end
 
       match /how((’|')d| did) my team do\??$/ do |client, data, match|
@@ -18,7 +18,7 @@ module SlackNFLBot
           message = "Looks like your team didn't play this week"
         end
 
-        client.say(text: message, channel: data.channel)
+        client.say(text: message.chomp, channel: data.channel)
       end
 
     end

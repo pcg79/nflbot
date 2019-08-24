@@ -4,7 +4,7 @@ module SlackNFLBot
       command "last week" do |client, data, match|
        last_week = ::Week.last_week
 
-        client.say(text: "Last week's scores:\n#{last_week.all_scores}", channel: data.channel)
+        client.say(text: "Last week's scores:\n#{last_week.all_scores.chomp}", channel: data.channel)
       end
 
       match /how((’|')d| did) my team do last week\??/ do |client, data, match|

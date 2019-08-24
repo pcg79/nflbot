@@ -42,15 +42,18 @@ class Game
   private
 
   def format_winner(home_team, away_team, home_team_score, away_team_score)
+    home_team_string = "#{home_team} (#{home_team_score})"
+    away_team_string = "#{away_team} (#{away_team_score})"
+
     if home_team_score >= away_team_score
-      home_team = "*#{home_team}*"
+      home_team_string = "*#{home_team_string}*"
     elsif away_team_score >= home_team_score
-      away_team = "*#{away_team}*"
+      away_team_string = "*#{away_team_string}*"
     end
 
     <<~SCORE.chomp
-    #{away_team} (#{away_team_score})
-    #{home_team} (#{home_team_score})
+    #{away_team_string}
+    #{home_team_string}
     SCORE
   end
 

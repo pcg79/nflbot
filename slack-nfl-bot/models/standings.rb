@@ -31,10 +31,10 @@ class Standings < Base
           rows << :separator
         end
 
-        rows << [{ value: division_full_name(div), colspan: 2 }]
+        rows << [{ value: division_full_name(div), colspan: 2 }, "W", "L", "T"]
 
         teams.each do |team|
-          rows << [team.division_rank, team.full_name]
+          rows << [team.division_rank, team.full_name, team.wins, team.losses, team.ties]
         end
       end
     end.compact

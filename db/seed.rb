@@ -46,7 +46,7 @@ end; nil
   "U1DKE050A" => "Philadelphia Eagles",  # Conor
   "U03JJTQMA" => "San Francisco 49ers",  # James
   "UH8001CUX" => "Green Bay Packers",    # Alistair
-  "U0H3MGR0E" => "San Diego Chargers",   # Rory
+  "U0H3MGR0E" => "Los Angeles Chargers",   # Rory
   "U54SRH6MP" => "Houston Texans",       # Tamsin
   "U59A582VA" => "Washington Redskins",  # Pat
 }.each do |slack_user_id, team_name|

@@ -19,6 +19,20 @@ describe SlackNFLBot::Commands::Fact, vcr: { cassette_name: 'fact_commands' } do
       slack_message = "Here's a fun fact about the *Washington Redskins*: Redskins fact!"
       expect(message: "nflbot what is a fact about my team", channel: 'channel').to respond_with_slack_message(slack_message)
     end
+
+    it "with a contraction" do
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+
+      slack_message = "Here's a fun fact about the *Washington Redskins*: Redskins fact!"
+      expect(message: "nflbot what's a fact about my team", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
+
+    it "with bad grammar" do
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+
+      slack_message = "Here's a fun fact about the *Washington Redskins*: Redskins fact!"
+      expect(message: "nflbot whats a fact about my team", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
   end
 
   context "returns a fact about a specified team" do

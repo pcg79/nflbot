@@ -34,11 +34,21 @@ describe SlackNFLBot::Commands::Score do
     end
   end
 
-  it "returns a message if your team didn't play" do
-    expect(Week).to receive(:json_endpoint).and_return(scores_url)
-    expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
+  context "returns a message if your team didn't play" do
+    it "with a contraction" do
+      expect(Week).to receive(:json_endpoint).and_return(scores_url)
+      expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
 
-    slack_message = "Looks like your team didn't play in week 2"
-    expect(message: "nflbot how'd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
+      slack_message = "Looks like your team didn't play in week 2"
+      expect(message: "nflbot how'd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
+
+    it "with bad grammar" do
+      expect(Week).to receive(:json_endpoint).and_return(scores_url)
+      expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
+
+      slack_message = "Looks like your team didn't play in week 2"
+      expect(message: "nflbot howd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
   end
 end

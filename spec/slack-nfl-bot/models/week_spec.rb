@@ -1,38 +1,39 @@
 require 'spec_helper'
 
+def scores_url
+  File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_scores.json")
+end
+
 describe Week do
-  let(:game) { Game.new({
-      week: 2,
-      home_team: "Washington Redskins",
-      away_team: "New England Patriots",
-      game_iso_time: "2019-08-16T16:00:00-07:00",
-      status: "FINAL",
-      home_team_score: "21",
-      away_team_score: "0"
-    })
-  }
-
   subject(:week) do
-    expect_any_instance_of(Week).to receive(:parse_games).and_return([game])
-
     described_class.new
   end
 
+  let(:games_data) { JSON.load(File.open(scores_url)) }
+
   context "#find_game_by_team" do
     it "returns a game if the team is one of the participants" do
-      expect(week.find_game_by_team("Washington Redskins")).to eq game
+      expect_any_instance_of(Week).to receive(:games_data).and_return(games_data)
+
+      expect(week.find_game_by_team("Washington Redskins").away_team).to eq "Washington Redskins"
     end
 
     it "returns nil if no games had the team as a participant" do
+      expect_any_instance_of(Week).to receive(:games_data).and_return(games_data)
+
       expect(week.find_game_by_team("Cleveland Browns")).to be_nil
     end
   end
 
   context "#current_week" do
     it "returns an instance with the current week info" do
-      expect_any_instance_of(Week).to receive(:parse_games).and_return([game])
+      expect_any_instance_of(Week).to receive(:games_data).and_return(games_data)
 
-      expect(Week.current_week).to be_an_instance_of Week
+      expect(week).to be_an_instance_of Week
+      expect(week.season).to eq 2019
+      expect(week.season_type).to eq "PRE"
+      expect(week.week_number).to eq 2
+      expect(week.games.count).to eq 4
     end
   end
 

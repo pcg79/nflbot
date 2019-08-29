@@ -2,7 +2,7 @@ require 'open-uri'
 require 'xml'
 
 class Week < Base
-  attr_reader :games
+  attr_reader :games, :season, :season_type, :week_number
 
   def self.current_week
     self.new
@@ -13,11 +13,15 @@ class Week < Base
   end
 
   def initialize(week = :current)
-    if week == :current
-      @games = parse_games
-    elsif week == :previous
-      @games = parse_previous_week_games
+    url = if week == :previous
+      get_previous_week_url
     end
+
+    data = games_data(url)
+    @games = parse_games(data["gameScores"])
+    @season = data["season"]
+    @season_type = data["seasonType"]
+    @week_number = data["week"]
   end
 
   def all_scores
@@ -30,11 +34,9 @@ class Week < Base
 
   private
 
-  def parse_games
-    games_data = json_data
-
+  def parse_games(game_scores)
     [].tap do |games|
-      games_data["gameScores"].each do |game_score|
+      game_scores.each do |game_score|
         game_data_attrs = game_score["gameSchedule"]
         game_params = {
           week: game_data_attrs["week"],
@@ -62,43 +64,8 @@ class Week < Base
     end
   end
 
-  def parse_previous_week_games
-    current_season = Date.today.year
-    previous_week_season_type, previous_week = get_previous_week
-    scores_url = self.class.week_specific_scores_endpoint(current_season, previous_week_season_type, previous_week)
-    scores_json = json_data(scores_url)
-
-    [].tap do |games|
-      scores_json["gameScores"].each do |game_score|
-        game_data_attrs = game_score["gameSchedule"]
-        game_params = {
-          week: game_data_attrs["week"],
-          home_team: game_data_attrs["homeDisplayName"],
-          away_team: game_data_attrs["visitorDisplayName"],
-          game_iso_time: game_data_attrs["isoTime"],
-        }
-
-        # "score" only exists if the game has started
-        if score_element = game_score["score"]
-          home_team_attrs = score_element["homeTeamScore"]
-          away_team_attrs = score_element["visitorTeamScore"]
-
-          score_params = {
-            status: score_element["phase"],
-            home_team_score: home_team_attrs["pointTotal"],
-            away_team_score: away_team_attrs["pointTotal"],
-          }
-
-          game_params.merge! score_params
-        end
-
-        games << Game.new(game_params)
-      end
-    end
-  end
-
-  def get_previous_week
-    current_week_json = json_data(self.class.current_week_endpoint)
+  def get_previous_week_url
+    current_week_json = games_data(self.class.current_week_endpoint)
     current_week = current_week_json["week"]
     current_season_type = current_week_json["seasonType"]
 
@@ -113,7 +80,13 @@ class Week < Base
       previous_week_season_type = current_season_type
     end
 
-    return previous_week_season_type, previous_week
+    # TODO:  This is going to break in January!
+    current_season = Date.today.year
+    self.class.week_specific_scores_endpoint(current_season, previous_week_season_type, previous_week)
+  end
+
+  def games_data(url=nil)
+    @games_data ||= json_data(url)
   end
 
   def self.json_endpoint

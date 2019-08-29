@@ -23,12 +23,22 @@ describe SlackNFLBot::Commands::LastWeek do
     expect(message: "nflbot last week", channel: 'channel').to respond_with_slack_message(slack_message)
   end
 
-  it "returns last week's score for your team" do
-    expect(::Team).to receive(:get_team).and_return("Washington Redskins")
-    expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
+  context "returns last week's score for your team" do
+    it "with a contraction" do
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
 
-    slack_message = "*Cincinnati Bengals (23)*\nWashington Redskins (13)\nFINAL\n"
-    expect(message: "nflbot how'd my team do last week", channel: 'channel').to respond_with_slack_message(slack_message)
+      slack_message = "*Cincinnati Bengals (23)*\nWashington Redskins (13)\nFINAL\n"
+      expect(message: "nflbot how'd my team do last week", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
+
+    it "with bad grammar" do
+      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
+
+      slack_message = "*Cincinnati Bengals (23)*\nWashington Redskins (13)\nFINAL\n"
+      expect(message: "nflbot howd my team do last week", channel: 'channel').to respond_with_slack_message(slack_message)
+    end
   end
 
 end

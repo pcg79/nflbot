@@ -7,7 +7,7 @@ module SlackNFLBot
         client.say(text: "Last week's scores:\n#{last_week.all_scores.chomp}", channel: data.channel)
       end
 
-      match /how((’|')d| did) my team do last week\??/ do |client, data, match|
+      match /how((’|')?d| did) my team do last week\??/ do |client, data, match|
         team = ::Team.get_team(data)
         week = ::Week.last_week
 

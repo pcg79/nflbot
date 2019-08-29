@@ -68,6 +68,7 @@ describe Standings do
 
   subject(:standings) do
     expect_any_instance_of(Standings).to receive(:parse_standings_feed).and_return(teams)
+    expect_any_instance_of(Standings).to receive(:parse_week_number).and_return(2)
 
     described_class.new
   end

@@ -1,7 +1,7 @@
 require 'terminal-table'
 
 class Standings < Base
-  attr_reader :teams
+  attr_reader :teams, :week_number
 
   DIVISIONS = {
     "ACE" => "AFC East",
@@ -20,6 +20,7 @@ class Standings < Base
 
   def initialize
     @teams = parse_standings_feed
+    @week_number = parse_week_number
   end
 
   def print
@@ -49,7 +50,6 @@ class Standings < Base
   end
 
   def parse_standings_feed
-    standings_data = json_data
     [].tap do |teams|
       standings_data["teamStandings"].each do |team_standing_element|
         team_attributes = team_standing_element["team"]
@@ -81,10 +81,19 @@ class Standings < Base
     end
   end
 
+  # Why oh why couldn't they have just put week in the metadata of the root node
+  def parse_week_number
+    standings_data["teamStandings"].first["standing"]["week"]
+  end
+
   def group_by_division_and_sort_by_rank
     @group_by_division_and_sort_by_rank ||= teams.group_by { |t| t.division_abbr }
       .sort_by { |div, _| div }
       .each { |div, teams| teams.sort_by! { |t| t.division_rank } }
+  end
+
+  def standings_data
+    @standings_data ||= json_data
   end
 
   def self.json_endpoint

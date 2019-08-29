@@ -27,6 +27,13 @@ describe SlackNFLBot::Commands::Team, vcr: { cassette_name: 'team_commands' } do
         slack_message = "<@user>, your team is the *Washington Redskins*"
         expect(message: "nflbot what's my team?", channel: 'channel').to respond_with_slack_message(slack_message)
       end
+
+      it "and bad grammar" do
+        expect(::Team).to receive(:slack_user_id).and_return(1)
+
+        slack_message = "<@user>, your team is the *Washington Redskins*"
+        expect(message: "nflbot whats my team?", channel: 'channel').to respond_with_slack_message(slack_message)
+      end
     end
 
     context "using 'which'" do

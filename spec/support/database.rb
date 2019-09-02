@@ -11,17 +11,14 @@ db.drop_table :teams
 require_relative "../../db/migrate.rb"
 
 [
-  "Atlanta Falcons",
-  "Washington Redskins",
+  "Washington Redskins"
 ].each_with_index do |name, index|
   teams = db[:teams]
   teams.insert(id: index+1, name: name)
 end; nil
 
 {
-  "1" => "Washington Redskins",
-  "2" => "Washington Redskins",
-  "3" => "Atlanta Falcons"
+  "1" => "Washington Redskins"
 }.each do |slack_user_id, team_name|
   employees_teams = db[:employees_teams]
   teams = db[:teams]

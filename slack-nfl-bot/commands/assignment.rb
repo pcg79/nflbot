@@ -6,7 +6,7 @@ module SlackNFLBot
 
         message = slack_users_grouped_by_team.keys.sort.map do |team_name|
           users = slack_users_grouped_by_team[team_name].map { |id| user_name_from_id(id) }
-          "#{team_name}: #{users.join(", ")}"
+          "*#{team_name}*: #{users.join(", ")}"
         end.join("\n")
 
         client.say(text: message, channel: data.channel)

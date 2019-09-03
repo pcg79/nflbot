@@ -13,8 +13,7 @@ module SlackNFLBot
       end
 
       def self.user_name_from_id(user_id)
-        info = slack_client.user_info(user_id)
-        info.user.profile.real_name
+        slack_client.real_name(user_id)
       end
 
       def self.slack_client

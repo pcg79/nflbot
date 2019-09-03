@@ -6,8 +6,9 @@ module SlackNFLBot
       end
     end
 
-    def user_info(user_id)
-      client.users_info(user: user_id)
+    def real_name(user_id)
+      info = client.users_info(user: user_id)
+      info.user.profile.real_name
     rescue Slack::Web::Api::Errors::SlackError => e
       SlackRubyBot::Client.logger.error e
       "unknown user"

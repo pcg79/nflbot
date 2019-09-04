@@ -15,6 +15,11 @@ describe SlackNFLBot::Commands::LastWeek do
 
   let(:games_data) { JSON.load(File.open(week_2_scores_url)) }
   let(:current_week_data) { JSON.load(File.open(current_week_url)) }
+  let(:redskins) {
+    Team.new({
+      full_name: "Washington Redskins",
+    })
+  }
 
   it "returns last week's scores" do
     expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
@@ -25,7 +30,7 @@ describe SlackNFLBot::Commands::LastWeek do
 
   context "returns last week's score for your team" do
     it "with a contraction" do
-      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return(redskins)
       expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
 
       slack_message = "*Cincinnati Bengals (23)*\nWashington Redskins (13)\nFINAL\n"
@@ -33,7 +38,7 @@ describe SlackNFLBot::Commands::LastWeek do
     end
 
     it "with bad grammar" do
-      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return(redskins)
       expect_any_instance_of(Week).to receive(:games_data).and_return(current_week_data, games_data)
 
       slack_message = "*Cincinnati Bengals (23)*\nWashington Redskins (13)\nFINAL\n"

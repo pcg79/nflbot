@@ -11,7 +11,7 @@ module SlackNFLBot
         team = ::Team.get_team(data)
         week = ::Week.last_week
 
-        if game = week.find_game_by_team(team)
+        if game = week.find_game_by_team(team.full_name)
           message = game.to_s
         else
           message = "Looks like your team didn't play last week"

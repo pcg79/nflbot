@@ -67,6 +67,7 @@ describe Standings do
   end
 
   subject(:standings) do
+    expect_any_instance_of(Standings).to receive(:empty_team_standings_data?).and_return(false)
     expect_any_instance_of(Standings).to receive(:parse_standings_feed).and_return(teams)
     expect_any_instance_of(Standings).to receive(:parse_week_number).and_return(2)
 

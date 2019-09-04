@@ -19,6 +19,7 @@ class Standings < Base
   end
 
   def initialize
+    return if empty_team_standings_data?
     @teams = parse_standings_feed
     @week_number = parse_week_number
   end
@@ -90,6 +91,10 @@ class Standings < Base
     @group_by_division_and_sort_by_rank ||= teams.group_by { |t| t.division_abbr }
       .sort_by { |div, _| div }
       .each { |div, teams| teams.sort_by! { |t| t.division_rank } }
+  end
+
+  def empty_team_standings_data?
+    standings_data["teamStandings"].empty?
   end
 
   def standings_data

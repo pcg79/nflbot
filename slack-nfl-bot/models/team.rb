@@ -1,6 +1,6 @@
 class Team < Base
 
-  attr_reader :full_name, :division_abbr, :conference_abbr,
+  attr_reader :full_name, :nickname, :division_abbr, :conference_abbr,
     :wins, :losses, :ties,
     :conf_wins, :conf_losses, :conf_ties,
     :division_wins, :division_losses, :division_ties,
@@ -8,6 +8,7 @@ class Team < Base
 
   def initialize(params)
     @full_name = params[:full_name]
+    @nickname = @full_name.split(" ")[-1].downcase
     @division_abbr = params[:division_abbr]
     @conference_abbr = params[:conference_abbr]
 

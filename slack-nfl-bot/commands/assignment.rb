@@ -9,7 +9,11 @@ module SlackNFLBot
           "*#{team_name}*: #{users.join(", ")}"
         end.join("\n")
 
-        client.say(text: message, channel: data.channel)
+        client.say(
+          text: message,
+          channel: data.channel,
+          thread_ts: data.thread_ts || data.ts
+        )
       end
 
       def self.user_name_from_id(user_id)

@@ -11,6 +11,7 @@ module SlackNFLBot
         *what's a fact about [full team name]* (and variations) - Tells you a fun fact about [full team name].
         *scores* - Recap of the week including scores and upcoming games for the week.
         *standings* - Current NFL standings by division
+        *assignments* - See who is legally required to support which team
 
         * All things I've coded at least
         HELP

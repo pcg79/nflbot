@@ -27,11 +27,15 @@ class Team < Base
     @conference_rank = params[:conference_rank].to_i
   end
 
+  def emoji
+    "nfl-#{nickname}"
+  end
+
   class << self
 
     def get_team(user)
       slack_user_id = slack_user_id(user)
-      find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id)
+      new(full_name: find_team_by_slack_user_id(slack_user_id) || assign_team(slack_user_id))
     end
 
     def find_team_by_slack_user_id(slack_user_id)

@@ -75,7 +75,6 @@ describe Standings do
   end
 
   context "#print" do
-
     it "returns the teams in the right order" do
       expected_output = "```| NFC East            | W | L | T |\n| 1 | NFC East Team 1 | 1 | 0 | 0 |\n| 2 | NFC East Team 2 | 0 | 1 | 0 |\n+---+-----------------+---+---+---+\n| NFC West            | W | L | T |\n| 1 | NFC West Team 1 | 1 | 0 | 0 |```"
       expect(standings.print).to eq expected_output

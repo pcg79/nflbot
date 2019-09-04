@@ -9,6 +9,17 @@ describe SlackNFLBot::Commands::Score do
     File.join(File.dirname(__FILE__), "..", "..", "fixtures", "nfl_scores.json")
   end
 
+  let(:redskins) {
+    Team.new({
+      full_name: "Washington Redskins",
+    })
+  }
+  let(:browns) {
+    Team.new({
+      full_name: "Cleveland Browns",
+    })
+  }
+
   it "returns the latest score for all teams" do
     expect(::Week).to receive(:json_endpoint).and_return(scores_url)
 
@@ -19,7 +30,7 @@ describe SlackNFLBot::Commands::Score do
   context "it returns the latest score for your assigned team" do
     it "with a question mark" do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
-      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return(redskins)
 
       slack_message = "Week 2\nWashington Redskins\nAtlanta Falcons\nFriday, 00:30:00 BST"
       expect(message: "nflbot how did my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -27,7 +38,7 @@ describe SlackNFLBot::Commands::Score do
 
     it "without a question mark" do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
-      expect(::Team).to receive(:get_team).and_return("Washington Redskins")
+      expect(::Team).to receive(:get_team).and_return(redskins)
 
       slack_message = "Week 2\nWashington Redskins\nAtlanta Falcons\nFriday, 00:30:00 BST"
       expect(message: "nflbot how did my team do", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -37,7 +48,7 @@ describe SlackNFLBot::Commands::Score do
   context "returns a message if your team didn't play" do
     it "with a contraction" do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
-      expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
+      expect(::Team).to receive(:get_team).and_return(browns)
 
       slack_message = "Looks like your team didn't play in week 2"
       expect(message: "nflbot how'd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)
@@ -45,7 +56,7 @@ describe SlackNFLBot::Commands::Score do
 
     it "with bad grammar" do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
-      expect(::Team).to receive(:get_team).and_return("Cleveland Browns")
+      expect(::Team).to receive(:get_team).and_return(browns)
 
       slack_message = "Looks like your team didn't play in week 2"
       expect(message: "nflbot howd my team do?", channel: 'channel').to respond_with_slack_message(slack_message)

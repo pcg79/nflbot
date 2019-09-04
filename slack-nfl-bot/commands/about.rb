@@ -6,7 +6,11 @@ module SlackNFLBot
       match(/^(?<bot>\w*)$/)
 
       def self.call(client, data, _match)
-        client.say(text: SlackNFLBot::ABOUT, channel: data.channel)
+        client.say(
+          text: SlackNFLBot::ABOUT,
+          channel: data.channel,
+          thread_ts: data.thread_ts || data.ts
+        )
       end
     end
   end

@@ -13,7 +13,7 @@ class EmployeeTeam < Base
     end
 
     def employees_teams
-      database[:employees_teams]
+      @employees_teams ||= database[:employees_teams]
     end
 
   end

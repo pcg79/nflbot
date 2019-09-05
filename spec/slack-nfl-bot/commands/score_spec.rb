@@ -70,9 +70,10 @@ describe SlackNFLBot::Commands::Score do
     it "without a question mark" do
       expect(Week).to receive(:json_endpoint).and_return(scores_url)
       expect(::Team).to receive(:get_team).and_return(redskins)
-      expect_any_instance_of(SlackNFLBot::SlackClient).to receive(:real_name).and_return("Pat", "Ethan", "Kalani")
+      allow_any_instance_of(Game).to receive(:home_team_supporters).and_return([])
+      allow_any_instance_of(Game).to receive(:away_team_supporters).and_return([])
 
-      slack_message = "Week 2\nWashington Redskins (Pat, Ethan)\nAtlanta Falcons (Kalani)\nFriday, 00:30:00 BST"
+      slack_message = "Week 2\nWashington Redskins\nAtlanta Falcons\nFriday, 00:30:00 BST"
       expect(message: "nflbot how did my team do", channel: 'channel').to respond_with_slack_message(slack_message)
     end
   end

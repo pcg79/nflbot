@@ -50,7 +50,7 @@ class Game
   private
 
   def real_names_by_team(team)
-    ids = EmployeeTeam.user_ids_group_by_team[team]
+    ids = EmployeeTeam.user_ids_group_by_team[team] || []
     ids.map do |id|
       self.class.slack_client.real_name(id)
     end

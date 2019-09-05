@@ -15,7 +15,7 @@ describe Week do
     it "returns a game if the team is one of the participants" do
       expect_any_instance_of(Week).to receive(:games_data).and_return(games_data)
 
-      expect(week.find_game_by_team("Washington Redskins").away_team).to eq "Washington Redskins"
+      expect(week.find_game_by_team("Washington Redskins").away_team_full_name).to eq "Washington Redskins"
     end
 
     it "returns nil if no games had the team as a participant" do

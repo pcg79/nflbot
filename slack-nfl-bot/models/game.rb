@@ -1,13 +1,13 @@
 require 'date'
 
 class Game
-  attr_reader :week, :home_team, :away_team, :home_team_score, :away_team_score,
+  attr_reader :week, :home_team_full_name, :away_team_full_name, :home_team_score, :away_team_score,
     :game_iso_time, :overtime, :status
 
   def initialize(game_params)
     @week = game_params[:week]
-    @home_team = game_params[:home_team]
-    @away_team = game_params[:away_team]
+    @home_team_full_name = game_params[:home_team]
+    @away_team_full_name = game_params[:away_team]
     @home_team_score = game_params[:home_team_score]
     @away_team_score = game_params[:away_team_score]
 
@@ -18,32 +18,47 @@ class Game
   def to_s
     if final? || (overtime? && tie?)
       <<~SCORE
-      #{format_winner(home_team, away_team, home_team_score, away_team_score)}
+      #{format_winner(home_team_full_name, away_team_full_name, home_team_score, away_team_score)}
       FINAL
       SCORE
     elsif overtime?
       <<~SCORE
-      #{format_winner(home_team, away_team, home_team_score, away_team_score)}
+      #{format_winner(home_team_full_name, away_team_full_name, home_team_score, away_team_score)}
       FINAL
       SCORE
     else
       <<~SCORE
-      #{away_team}
-      #{home_team}
+      #{format_score(away_team_full_name, away_team_supporters)}
+      #{format_score(home_team_full_name, home_team_supporters)}
       #{game_day}, #{game_time}
       SCORE
     end
   end
 
   def has_team?(team)
-    home_team == team || away_team == team
+    home_team_full_name == team || away_team_full_name == team
+  end
+
+  def home_team_supporters
+    @home_team_supporters ||= real_names_by_team(home_team_full_name)
+  end
+
+  def away_team_supporters
+    @away_team_supporters ||= real_names_by_team(away_team_full_name)
   end
 
   private
 
-  def format_winner(home_team, away_team, home_team_score, away_team_score)
-    home_team_string = "#{home_team} (#{home_team_score})"
-    away_team_string = "#{away_team} (#{away_team_score})"
+  def real_names_by_team(team)
+    ids = EmployeeTeam.user_ids_group_by_team[team] || []
+    ids.map do |id|
+      self.class.slack_client.real_name(id)
+    end
+  end
+
+  def format_winner(home_team_full_name, away_team_full_name, home_team_score, away_team_score)
+    home_team_string = format_score(home_team_full_name, home_team_supporters, home_team_score)
+    away_team_string = format_score(away_team_full_name, away_team_supporters, away_team_score)
 
     if home_team_score >= away_team_score
       home_team_string = "*#{home_team_string}*"
@@ -55,6 +70,14 @@ class Game
     #{away_team_string}
     #{home_team_string}
     SCORE
+  end
+
+  def format_score(team, supporters, score=nil)
+    "".tap do |string|
+      string << team
+      string << " (#{supporters.join(", ")})" if !supporters.empty?
+      string << " (#{score})" if score
+    end
   end
 
   def get_game_time(game_iso_time)
@@ -97,5 +120,9 @@ class Game
     else
       "TIED"
     end
+  end
+
+  def self.slack_client
+    @slack_client ||= SlackNFLBot::SlackClient.new
   end
 end

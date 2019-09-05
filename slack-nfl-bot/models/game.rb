@@ -28,8 +28,8 @@ class Game
       SCORE
     else
       <<~SCORE
-      #{away_team}
-      #{home_team}
+      #{format_score(away_team, away_team_supporters)}
+      #{format_score(home_team, home_team_supporters)}
       #{game_day}, #{game_time}
       SCORE
     end
@@ -39,11 +39,26 @@ class Game
     home_team == team || away_team == team
   end
 
+  def home_team_supporters
+    @home_team_supporters ||= real_names_by_team(home_team)
+  end
+
+  def away_team_supporters
+    @away_team_supporters ||= real_names_by_team(away_team)
+  end
+
   private
 
+  def real_names_by_team(team)
+    ids = EmployeeTeam.employee_slack_ids_by_team(team)
+    ids.map do |id|
+      self.class.slack_client.real_name(id)
+    end
+  end
+
   def format_winner(home_team, away_team, home_team_score, away_team_score)
-    home_team_string = "#{home_team} (#{home_team_score})"
-    away_team_string = "#{away_team} (#{away_team_score})"
+    home_team_string = format_score(home_team, home_team_supporters, home_team_score)
+    away_team_string = format_score(away_team, away_team_supporters, away_team_score)
 
     if home_team_score >= away_team_score
       home_team_string = "*#{home_team_string}*"
@@ -55,6 +70,14 @@ class Game
     #{away_team_string}
     #{home_team_string}
     SCORE
+  end
+
+  def format_score(team, supporters, score=nil)
+    "".tap do |string|
+      string << team
+      string << " (#{supporters.join(", ")})" if !supporters.empty?
+      string << " (#{score})" if score
+    end
   end
 
   def get_game_time(game_iso_time)
@@ -97,5 +120,9 @@ class Game
     else
       "TIED"
     end
+  end
+
+  def self.slack_client
+    @slack_client ||= SlackNFLBot::SlackClient.new
   end
 end

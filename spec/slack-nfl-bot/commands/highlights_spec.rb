@@ -35,8 +35,8 @@ describe SlackNFLBot::Commands::Highlights do
       expect(::Week).to receive(:json_endpoint).and_return(scores_url)
       expect_any_instance_of(::Game).to receive(:highlights_endpoint).and_return(highlights_url)
 
-
-      message = "Here are the highlights for the Washington Redskins AT Atlanta Falcons game:"
+      # Double \\ are so the * are escaped in the regex
+      message = "Here are the highlights for the \\*Washington Redskins AT Atlanta Falcons\\* game:"
 
       expect(message: "nflbot highlights", channel: "channel").to respond_with_slack_message(/#{message}/)
     end
@@ -46,9 +46,9 @@ describe SlackNFLBot::Commands::Highlights do
       expect(::Week).to receive(:json_endpoint).and_return(scores_url)
       expect_any_instance_of(::Game).to receive(:highlights_endpoint).and_return(game_not_yet_played_highlights_url)
 
-      message = "Highlights for Washington Redskins AT Atlanta Falcons are not yet available"
+      message = "Highlights for \*Washington Redskins AT Atlanta Falcons\* are not yet available"
 
-      expect(message: "nflbot highlights", channel: "channel").to respond_with_slack_message(/#{message}/)
+      expect(message: "nflbot highlights", channel: "channel").to respond_with_slack_message(message)
     end
 
     it "states when the team didn't play that week" do

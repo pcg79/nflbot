@@ -1,0 +1,3099 @@
+{
+    "videos": [{
+        "contentType": "VIDEO",
+        "id": "0ap3000001051313",
+        "playId": 95,
+        "originalPublishDate": 1567729820000,
+        "modifiedDate": 1567730435000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:24:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Bears down Rodgers for third-down sack on Packers' opening drive",
+        "contentCategory": null,
+        "headline": "Bears down Rodgers for third-down sack on Packers' opening drive",
+        "caption": "The Chicago Bears down Aaron Rodgers for third-down sack on Green Bay Packers' opening drive.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051313/Bears-down-Rodgers-for-third-down-sack-on-Packers-opening-drive",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051313/1567730436_0ap3000001051313_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051313/1567730436_0ap3000001051313_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051313/1567730436_0ap3000001051313_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051313/1567730436_0ap3000001051313_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051313/1567730436_0ap3000001051313_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451080/451080_35C3165963254B87B83500772B62F3C2_190905_451080_Bears_down_Rodgers_for_third_down_sack_on_Packer_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2556665,
+            "status": "ACT",
+            "displayName": "Roy Robertson-Harris",
+            "firstName": "Roy",
+            "lastName": "Robertson-Harris",
+            "esbId": "ROB360907",
+            "gsisId": "00-0032667"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Roy Robertson-Harris",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451080.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051320",
+        "playId": 424,
+        "originalPublishDate": 1567730602000,
+        "modifiedDate": 1567731082000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:24:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Khalil Mack, Leonard Floyd swarm Aaron Rodgers for third-down sack",
+        "contentCategory": null,
+        "headline": "Khalil Mack, Leonard Floyd swarm Aaron Rodgers for third-down sack",
+        "caption": "Chicago Bears outside linebacker Khalil Mack, outside linebacker Leonard Floyd swarm quarterback Aaron Rodgers for third-down sack.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051320/Khalil-Mack-Leonard-Floyd-swarm-Aaron-Rodgers-for-third-down-sack",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051320/1567731083_0ap3000001051320_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051320/1567731083_0ap3000001051320_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051320/1567731083_0ap3000001051320_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051320/1567731083_0ap3000001051320_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051320/1567731083_0ap3000001051320_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451084/451084_99F7538505814A4E83108A27620DE026_190905_451084_Khalil_Mack__Leonard_Floyd_swarm_Aaron_Rodgers_f_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2555285,
+            "status": "ACT",
+            "displayName": "Leonard Floyd",
+            "firstName": "Leonard",
+            "lastName": "Floyd",
+            "esbId": "FLO758060",
+            "gsisId": "00-0033072"
+        }, {
+            "nflId": 2543463,
+            "status": "ACT",
+            "displayName": "Khalil Mack",
+            "firstName": "Khalil",
+            "lastName": "Mack",
+            "esbId": "MAC325122",
+            "gsisId": "00-0031040"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Leonard Floyd",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Khalil Mack",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451084.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051324",
+        "playId": 485,
+        "originalPublishDate": 1567730667000,
+        "modifiedDate": 1567731291000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:11:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "David Montgomery flashes nifty juke move on first NFL carry",
+        "contentCategory": null,
+        "headline": "David Montgomery flashes nifty juke move on first NFL carry",
+        "caption": "Chicago Bears rookie running back David Montgomery flashes nifty juke move on first NFL carry.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051324/David-Montgomery-flashes-nifty-juke-move-on-first-NFL-carry",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051324/1567731292_0ap3000001051324_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051324/1567731292_0ap3000001051324_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051324/1567731292_0ap3000001051324_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051324/1567731292_0ap3000001051324_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051324/1567731292_0ap3000001051324_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451085/451085_209386C0EB874B9CB526AAA4DDF78586_190905_451085_David_Montgomery_flashes_nifty_juke_move_on_firs_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2562502,
+            "status": "ACT",
+            "displayName": "David Montgomery",
+            "firstName": "David",
+            "lastName": "Montgomery",
+            "esbId": "MON487374",
+            "gsisId": "00-0035685"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "David Montgomery",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451085.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051330",
+        "playId": 625,
+        "originalPublishDate": 1567731227000,
+        "modifiedDate": 1567732002000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": null,
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:39:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Soldier Field erupts as Eddy Pineiro drills 38-yard FG",
+        "contentCategory": null,
+        "headline": "Soldier Field erupts as Eddy Pineiro drills 38-yard FG",
+        "caption": "Soldier Field erupts as kicker Eddy Pineiro drills 38-yard FG",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051330/Soldier-Field-erupts-as-Eddy-Pineiro-drills-38-yard-FG",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051330/1567732003_0ap3000001051330_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051330/1567732003_0ap3000001051330_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051330/1567732003_0ap3000001051330_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051330/1567732003_0ap3000001051330_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051330/1567732003_0ap3000001051330_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451088/451088_D5E55BB6CA774E65B9C3DC322D20B147_190905_451088_Soldier_Field_erupts_as_Eddy_Piniero_drills_38_y_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2560842,
+            "status": "ACT",
+            "displayName": "Eddy Pineiro",
+            "firstName": "Eddy",
+            "lastName": "Pineiro",
+            "esbId": "PIN375542",
+            "gsisId": "00-0034173"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Eddy Pineiro",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451088.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051332",
+        "playId": null,
+        "originalPublishDate": 1567731268000,
+        "modifiedDate": 1567731268000,
+        "status": "ACTIVE",
+        "seasonType": "PRE",
+        "season": 2019,
+        "week": 5,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:25:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Best reactions to Bears' opening field goal try of 2019",
+        "contentCategory": null,
+        "headline": "Best reactions to Bears' opening field goal try of 2019",
+        "caption": "Watch the best reactions to Chicago Bears' opening field goal try of 2019.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051332/Best-reactions-to-Bears-opening-field-goal-try-of-2019",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051332/1567731268_0ap3000001051332_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051332/1567731268_0ap3000001051332_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051332/1567731268_0ap3000001051332_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051332/1567731268_0ap3000001051332_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051332/1567731268_0ap3000001051332_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451090/451090_B93569241B794E7A98ABF7DE09731702_190905_451090_Best_reactions_to_Bears__opening_field_goal_try__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451090.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051335",
+        "playId": 920,
+        "originalPublishDate": 1567731813000,
+        "modifiedDate": 1567732079000,
+        "status": "ACTIVE",
+        "seasonType": "PRE",
+        "season": 2019,
+        "week": 5,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:16:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "David Montgomery breaks slew of tackles to pick up a first down",
+        "contentCategory": null,
+        "headline": "David Montgomery breaks slew of tackles to pick up a first down",
+        "caption": "Chicago Bears rookie running back David Montgomery breaks slew of tackles to pick up a first down.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051335/David-Montgomery-breaks-slew-of-tackles-to-pick-up-a-first-down",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051335/1567732081_0ap3000001051335_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051335/1567732081_0ap3000001051335_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051335/1567732081_0ap3000001051335_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051335/1567732081_0ap3000001051335_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051335/1567732081_0ap3000001051335_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451095/451095_59BE2F541568490E8697864B74CF5CBC_190905_451095_David_Montgomery_breaks_slew_of_tackles_to_pick__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2562502,
+            "status": "ACT",
+            "displayName": "David Montgomery",
+            "firstName": "David",
+            "lastName": "Montgomery",
+            "esbId": "MON487374",
+            "gsisId": "00-0035685"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "David Montgomery",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451095.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051339",
+        "playId": 1082,
+        "originalPublishDate": 1567746180000,
+        "modifiedDate": 1567746222000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:26:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Can't-Miss Play: Rodgers uncorks 47-YARD strike to Valdes-Scantling",
+        "contentCategory": null,
+        "headline": "Can't-Miss Play: Rodgers uncorks 47-YARD strike to Valdes-Scantling",
+        "caption": "Green Bay Packers quarterback Aaron Rodgers completes a 47-yard pass to Marquez Valdes-Scantling against the Chicago Bears.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-cant-miss-plays/0ap3000001051339/Can-t-Miss-Play-Rodgers-uncorks-47-YARD-strike-to-Valdes-Scantling",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051339/1567746224_0ap3000001051339_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051339/1567746224_0ap3000001051339_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051339/1567746224_0ap3000001051339_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051339/1567746224_0ap3000001051339_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051339/1567746224_0ap3000001051339_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-cant-miss-plays",
+            "channelName": "Can't-Miss Plays"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451098/451098_14D67C50925D4FB398D1A3F0AF1475FA_190905_451098_Marquez_Valdes_Scantling_catches_for_a_47_yard_G_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-cant-miss-plays",
+            "channelName": "Can't-Miss Plays"
+        }, {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2506363,
+            "status": "ACT",
+            "displayName": "Aaron Rodgers",
+            "firstName": "Aaron",
+            "lastName": "Rodgers",
+            "esbId": "ROD339293",
+            "gsisId": "00-0023459"
+        }, {
+            "nflId": 2560907,
+            "status": "ACT",
+            "displayName": "Marquez Valdes-Scantling",
+            "firstName": "Marquez",
+            "lastName": "Valdes-Scantling",
+            "esbId": "VAL142116",
+            "gsisId": "00-0034272"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "syndicated partners",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Aaron Rodgers",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Marquez Valdes-Scantling",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451098.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051343",
+        "playId": 1159,
+        "originalPublishDate": 1567734300000,
+        "modifiedDate": 1567734336000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:29:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Jimmy Graham boxes out Bears DB for first TD of 2019",
+        "contentCategory": null,
+        "headline": "Jimmy Graham boxes out Bears DB for first TD of 2019",
+        "caption": "Green Bay Packers quarterback Aaron Rodgers throws an 8-yard touchdown pass to tight end Jimmy Graham against the Chicago Bears.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051343/Jimmy-Graham-boxes-out-Bears-DB-for-first-TD-of-2019",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051343/1567734338_0ap3000001051343_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051343/1567734338_0ap3000001051343_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051343/1567734338_0ap3000001051343_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051343/1567734338_0ap3000001051343_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051343/1567734338_0ap3000001051343_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451101/451101_D96E71B003F942C2B6092CBB3C91FA03_190905_451101_Aaron_Rodgers_with_an_8_yard_touchdown_pass_to_J_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2506363,
+            "status": "ACT",
+            "displayName": "Aaron Rodgers",
+            "firstName": "Aaron",
+            "lastName": "Rodgers",
+            "esbId": "ROD339293",
+            "gsisId": "00-0023459"
+        }, {
+            "nflId": 497236,
+            "status": "ACT",
+            "displayName": "Jimmy Graham",
+            "firstName": "Jimmy",
+            "lastName": "Graham",
+            "esbId": "GRA207087",
+            "gsisId": "00-0027696"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Jimmy Graham",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "yahoo in game",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Aaron Rodgers",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451101.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051352",
+        "playId": 1248,
+        "originalPublishDate": 1567734240000,
+        "modifiedDate": 1567734274000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:27:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Allen Robinson hauls in acrobatic back-shoulder grab for 27 yards",
+        "contentCategory": null,
+        "headline": "Allen Robinson hauls in acrobatic back-shoulder grab for 27 yards",
+        "caption": "Chicago Bears quarterback Mitchell Trubisky hits wide receiver Allen Robinson for an impressive 27-yard back-shoulder hookup.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051352/Allen-Robinson-hauls-in-acrobatic-back-shoulder-grab-for-27-yards",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051352/1567734276_0ap3000001051352_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051352/1567734276_0ap3000001051352_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051352/1567734276_0ap3000001051352_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051352/1567734276_0ap3000001051352_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051352/1567734276_0ap3000001051352_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451105/451105_DEA1077751E247EEBABE10FD409AE147_190905_451105_Allen_Robinson_hauls_in_acrobatic_back_shoulder__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2543509,
+            "status": "ACT",
+            "displayName": "Allen Robinson",
+            "firstName": "Allen",
+            "lastName": "Robinson",
+            "esbId": "ROB365982",
+            "gsisId": "00-0031428"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Allen Robinson",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451105.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051351",
+        "playId": null,
+        "originalPublishDate": 1567732931000,
+        "modifiedDate": 1567733116000,
+        "status": "ACTIVE",
+        "seasonType": null,
+        "season": 2019,
+        "week": null,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:38:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Field view: Bears envelope Rodgers for monster sack",
+        "contentCategory": null,
+        "headline": "Field view: Bears envelope Rodgers for monster sack",
+        "caption": "See the Chicago Bears defense sack Green Bay Packers quarterback Aaron Rodgers in Week 1 of the 2019 NFL season.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051351/Field-view-Bears-envelope-Rodgers-for-monster-sack",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051351/1567733118_0ap3000001051351_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051351/1567733118_0ap3000001051351_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051351/1567733118_0ap3000001051351_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051351/1567733118_0ap3000001051351_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051351/1567733118_0ap3000001051351_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5691/19/09/05/451104/451104_9253E83DA67D4185A32BE8F376C70BC4_190905_451104_Field_View__Bears_envelope_Rodgers_for_monster_s_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451104.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051358",
+        "playId": 1775,
+        "originalPublishDate": 1567734723000,
+        "modifiedDate": 1567735968000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nfl-network-special",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:28:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Darnell Savage jumps in front of Allen Robinson for third-down PBU",
+        "contentCategory": null,
+        "headline": "Darnell Savage jumps in front of Allen Robinson for third-down PBU",
+        "caption": "Green Bay Packers safety Darnell Savage jumps in front of Allen Robinson for third-down pass break-up.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051358/Darnell-Savage-jumps-in-front-of-Allen-Robinson-for-third-down-PBU",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051358/1567736616_0ap3000001051358_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051358/1567736616_0ap3000001051358_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051358/1567736616_0ap3000001051358_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051358/1567736616_0ap3000001051358_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051358/1567736616_0ap3000001051358_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451111/451111_0906E87AE2F94A4D8200B0332CFA9DB2_190905_451111_Darnell_Savage_jumps_in_front_of_Allen_Robinson__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2562724,
+            "status": "ACT",
+            "displayName": "Darnell Savage",
+            "firstName": "Darnell",
+            "lastName": "Savage",
+            "esbId": "SAV426683",
+            "gsisId": "00-0034968"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Darnell Savage",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451111.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051359",
+        "playId": 2179,
+        "originalPublishDate": 1567734820000,
+        "modifiedDate": 1567735550000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:15:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Jimmy Graham effortlessly HURDLES Eddie Jackson for 16-yard pickup",
+        "contentCategory": null,
+        "headline": "Jimmy Graham effortlessly HURDLES Eddie Jackson for 16-yard pickup",
+        "caption": "Green Bay Packers tight end Jimmy Graham effortlessly HURDLES safety Eddie Jackson for 16-yard pickup.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051359/Jimmy-Graham-effortlessly-HURDLES-Eddie-Jackson-for-16-yard-pickup",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051359/1567735552_0ap3000001051359_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051359/1567735552_0ap3000001051359_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051359/1567735552_0ap3000001051359_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051359/1567735552_0ap3000001051359_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051359/1567735552_0ap3000001051359_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451112/451112_181BEF7539D54D1781CC0FED665B1CA1_190905_451112_Jimmy_Graham_effortlessly_HURDLES_Eddie_Jackson__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 497236,
+            "status": "ACT",
+            "displayName": "Jimmy Graham",
+            "firstName": "Jimmy",
+            "lastName": "Graham",
+            "esbId": "GRA207087",
+            "gsisId": "00-0027696"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Jimmy Graham",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451112.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051370",
+        "playId": 2606,
+        "originalPublishDate": 1567736340000,
+        "modifiedDate": 1567736772000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:31:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Leonard Floyd completely overwhelms David Bakhtiari for sack",
+        "contentCategory": null,
+        "headline": "Leonard Floyd completely overwhelms David Bakhtiari for sack",
+        "caption": "Chicago Bears outside linebacker Leonard Floyd completely overwhelms offensive tackle David Bakhtiari for speedy sack.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051370/Leonard-Floyd-completely-overwhelms-David-Bakhtiari-for-sack",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051370/1567736840_0ap3000001051370_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051370/1567736840_0ap3000001051370_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051370/1567736840_0ap3000001051370_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051370/1567736840_0ap3000001051370_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051370/1567736840_0ap3000001051370_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451116/451116_D3E24DB467D3481A9290EA2BE4918E22_190905_451116_Leonard_Floyd_completely_overwhelms_David_Bakhti_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2555285,
+            "status": "ACT",
+            "displayName": "Leonard Floyd",
+            "firstName": "Leonard",
+            "lastName": "Floyd",
+            "esbId": "FLO758060",
+            "gsisId": "00-0033072"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Leonard Floyd",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451116.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051430",
+        "playId": 4326,
+        "originalPublishDate": 1567740775000,
+        "modifiedDate": 1567740860000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:20:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Adrian Amos burns former team with late end-zone INT",
+        "contentCategory": null,
+        "headline": "Adrian Amos burns former team with late end-zone INT",
+        "caption": "Green Bay Packers safety Adrian Amos burns former team with late end-zone interception.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051430/Adrian-Amos-burns-former-team-with-late-end-zone-INT",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051430/1567740862_0ap3000001051430_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051430/1567740862_0ap3000001051430_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051430/1567740862_0ap3000001051430_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051430/1567740862_0ap3000001051430_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051430/1567740862_0ap3000001051430_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451129/451129_78E29E9743F14D48A3B5EF8F541958C3_190905_451129_Adrian_Amos_intercepts_the_Mitchell_Trubisky_pas_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2552385,
+            "status": "ACT",
+            "displayName": "Adrian Amos",
+            "firstName": "Adrian",
+            "lastName": "Amos",
+            "esbId": "AMO568523",
+            "gsisId": "00-0031584"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Adrian Amos",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451129.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051444",
+        "playId": 4576,
+        "originalPublishDate": 1567740848000,
+        "modifiedDate": 1567741933000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:43:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Preston Smith clinches Packers' win with fourth-down sack of Trubisky",
+        "contentCategory": null,
+        "headline": "Preston Smith clinches Packers' win with fourth-down sack of Trubisky",
+        "caption": "Green Bay Packers defensive end Preston Smith clinches Green Bay Packers' win with fourth-down sack of Mitch Trubisky.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051444/Preston-Smith-clinches-Packers-win-with-fourth-down-sack-of-Trubisky",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051444/1567741935_0ap3000001051444_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051444/1567741935_0ap3000001051444_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051444/1567741935_0ap3000001051444_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051444/1567741935_0ap3000001051444_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051444/1567741935_0ap3000001051444_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451133/451133_D7495F993D5C4DFB80B198D8BCF05E8F_190905_451133_Preston_Smith_clinches_Packers__win_with_fourth__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2552276,
+            "status": "ACT",
+            "displayName": "Preston Smith",
+            "firstName": "Preston",
+            "lastName": "Smith",
+            "esbId": "SMI576520",
+            "gsisId": "00-0031935"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Preston Smith",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451133.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051445",
+        "playId": null,
+        "originalPublishDate": 1567741197000,
+        "modifiedDate": 1567741481000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:31:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Mike Pettine celebrates with Rodgers after Packers defense secures win",
+        "contentCategory": null,
+        "headline": "Mike Pettine celebrates with Rodgers after Packers defense secures win",
+        "caption": "Mike Pettine celebrates with Rodgers after Packers defense secures win.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051445/Mike-Pettine-celebrates-with-Rodgers-after-Packers-defense-secures-win",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051445/1567741518_0ap3000001051445_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051445/1567741518_0ap3000001051445_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051445/1567741518_0ap3000001051445_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051445/1567741518_0ap3000001051445_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051445/1567741518_0ap3000001051445_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451135/451135_FFFBE16A2AE74A34A13121DCD1511FA9_190905_451135_Mike_Pettine_celebrates_with_Rodgers_after_Packe_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451135.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051446",
+        "playId": null,
+        "originalPublishDate": 1567741380000,
+        "modifiedDate": 1567741423000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "game-highlight",
+        "runTime": "00:06:02:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Packers vs. Bears highlights | Week 1",
+        "contentCategory": null,
+        "headline": "Packers vs. Bears highlights | Week 1",
+        "caption": "Watch highlights from the Green Bay Packers win over the Chicago Bears in Week 1.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051446/Packers-vs-Bears-highlights-Week-1",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051446/1567741425_0ap3000001051446_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051446/1567741425_0ap3000001051446_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051446/1567741425_0ap3000001051446_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051446/1567741425_0ap3000001051446_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051446/1567741425_0ap3000001051446_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451137/451137_38FAC084E1E84BB88D233397DFC4B90D_190905_451137_GB_vs__CHI_FINAL_DOTCOM_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }, {
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "syndicated partners",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451137.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051392",
+        "playId": 2893,
+        "originalPublishDate": 1567737207000,
+        "modifiedDate": 1567737803000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:30:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Allen Robinson adjusts for tightly-contested back-shoulder grab",
+        "contentCategory": null,
+        "headline": "Allen Robinson adjusts for tightly-contested back-shoulder grab",
+        "caption": "Chicago Bears wide receiver Allen Robinson adjusts for tightly-contested back-shoulder grab.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051392/Allen-Robinson-adjusts-for-tightly-contested-back-shoulder-grab",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051392/1567737805_0ap3000001051392_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051392/1567737805_0ap3000001051392_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051392/1567737805_0ap3000001051392_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051392/1567737805_0ap3000001051392_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051392/1567737805_0ap3000001051392_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451117/451117_6385F00888754D3DAFD2D7080B3D6E31_190905_451117_Allen_Robinson_adjusts_for_tightly_contested_bac_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2543509,
+            "status": "ACT",
+            "displayName": "Allen Robinson",
+            "firstName": "Allen",
+            "lastName": "Robinson",
+            "esbId": "ROB365982",
+            "gsisId": "00-0031428"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Allen Robinson",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451117.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051393",
+        "playId": 2940,
+        "originalPublishDate": 1567737294000,
+        "modifiedDate": 1567738230000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:23:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "David Montgomery spins for impressive 27-yard catch",
+        "contentCategory": null,
+        "headline": "David Montgomery spins for impressive 27-yard catch",
+        "caption": "Chicago Bears rookie running back David Montgomery spins for impressive 27-yard catch.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051393/David-Montgomery-spins-for-impressive-27-yard-catch",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051393/1567738232_0ap3000001051393_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051393/1567738232_0ap3000001051393_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051393/1567738232_0ap3000001051393_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051393/1567738232_0ap3000001051393_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051393/1567738232_0ap3000001051393_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451118/451118_F078383E31324FBC8B279AD144154976_190905_451118_David_Montgomery_spins_for_impressive_27_yard_ca_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2562502,
+            "status": "ACT",
+            "displayName": "David Montgomery",
+            "firstName": "David",
+            "lastName": "Montgomery",
+            "esbId": "MON487374",
+            "gsisId": "00-0035685"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "David Montgomery",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451118.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051409",
+        "playId": 3060,
+        "originalPublishDate": 1567738651000,
+        "modifiedDate": 1567738856000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:12:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Packers trip up Trubisky for key fourth-down stop",
+        "contentCategory": null,
+        "headline": "Packers trip up Trubisky for key fourth-down stop",
+        "caption": "Green Bay Packers trip up Bears quarterback Mitch Trubisky for key fourth-down stop.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051409/Packers-trip-up-Trubisky-for-key-fourth-down-stop",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051409/1567738858_0ap3000001051409_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051409/1567738858_0ap3000001051409_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051409/1567738858_0ap3000001051409_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051409/1567738858_0ap3000001051409_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051409/1567738858_0ap3000001051409_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451122/451122_21B98C919C674AC69CFF54A23109D529_190905_451122_Packers_trip_up_Trubisky_for_key_fourth_down_sto_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451122.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051414",
+        "playId": null,
+        "originalPublishDate": 1567738803000,
+        "modifiedDate": 1567739338000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:47:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Bears get backed up for 3rd-and-40 attempt",
+        "contentCategory": null,
+        "headline": "Bears get backed up for 3rd-and-40 attempt",
+        "caption": "Chicago Bears quarterback Mitchell Trubisky completes a screen pass to wide receiver Taylor Gabriel on third and long.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051414/Bears-get-backed-up-for-3rd-and-40-attempt",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051414/1567739340_0ap3000001051414_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051414/1567739340_0ap3000001051414_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051414/1567739340_0ap3000001051414_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051414/1567739340_0ap3000001051414_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051414/1567739340_0ap3000001051414_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451124/451124_B88ADB86B2A54A55BA60C89D3CC857EB_190905_451124_Bears_get_backed_up_for_3rd_and_40_attempt_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451124.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051415",
+        "playId": null,
+        "originalPublishDate": 1567738860000,
+        "modifiedDate": 1567739116000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:01:25:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Trubisky's sideline dime to Gabriel stands after Packers challenge for OPI",
+        "contentCategory": null,
+        "headline": "Trubisky's sideline dime to Gabriel stands after Packers challenge for OPI",
+        "caption": "Chicago Bears quaterback Mitchell Trubisky's sideline dime to wide receiver Taylor Gabriel stands after Packers challenge for OPI.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051415/Trubisky-s-sideline-dime-to-Gabriel-stands-after-Packers-challenge-for-OPI",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051415/1567739117_0ap3000001051415_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051415/1567739117_0ap3000001051415_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051415/1567739117_0ap3000001051415_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051415/1567739117_0ap3000001051415_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051415/1567739117_0ap3000001051415_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451125/451125_54A84F2A901F4CDDB51EC6B25B226FF7_190905_451125_Trubisky_s_sideline_dime_to_Gabriel_stands_after_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }, {
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2558008,
+            "status": "ACT",
+            "displayName": "Mitchell Trubisky",
+            "firstName": "Mitchell",
+            "lastName": "Trubisky",
+            "esbId": "TRU215336",
+            "gsisId": "00-0033869"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "Mitchell Trubisky",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "yahoo in game",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451125.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051416",
+        "playId": 3701,
+        "originalPublishDate": 1567739003000,
+        "modifiedDate": 1567739521000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:30:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Trevor Davis drops to a knee to reel in Rodgers' throw for 28 yards",
+        "contentCategory": null,
+        "headline": "Trevor Davis drops to a knee to reel in Rodgers' throw for 28 yards",
+        "caption": "Green Bay Packers wide receiver Trevor Davis drops to a knee to reel in quarterback Aaron Rodgers' throw for 28 yards.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051416/Trevor-Davis-drops-to-a-knee-to-reel-in-Rodgers-throw-for-28-yards",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051416/1567739523_0ap3000001051416_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051416/1567739523_0ap3000001051416_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051416/1567739523_0ap3000001051416_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051416/1567739523_0ap3000001051416_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051416/1567739523_0ap3000001051416_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451126/451126_45D9ED68F6614C32A58DB9669E6F682B_190905_451126_Trevor_Davis_drops_to_a_knee_to_reel_in_Rodgers__3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "green-bay-packers",
+            "channelName": "Green Bay Packers"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "1800",
+            "abbr": "GB",
+            "cityState": "Green Bay",
+            "fullName": "Green Bay Packers",
+            "nick": "Packers",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2506363,
+            "status": "ACT",
+            "displayName": "Aaron Rodgers",
+            "firstName": "Aaron",
+            "lastName": "Rodgers",
+            "esbId": "ROD339293",
+            "gsisId": "00-0023459"
+        }, {
+            "nflId": 2555413,
+            "status": "ACT",
+            "displayName": "Trevor Davis",
+            "firstName": "Trevor",
+            "lastName": "Davis",
+            "esbId": "DAV778929",
+            "gsisId": "00-0032423"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Aaron Rodgers",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Trevor Davis",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451126.m3u8"
+    }, {
+        "contentType": "VIDEO",
+        "id": "0ap3000001051429",
+        "playId": 4147,
+        "originalPublishDate": 1567740024000,
+        "modifiedDate": 1567740512000,
+        "status": "ACTIVE",
+        "seasonType": "REG",
+        "season": 2019,
+        "week": 1,
+        "show": "nflcom",
+        "clipType": "in-game-highlight",
+        "runTime": "00:00:28:00",
+        "views": 0,
+        "live": false,
+        "invalidForMobile": false,
+        "commentable": false,
+        "recommendable": false,
+        "briefHeadline": "Allen Robinson finds an opening in Packers' secondary for 21 yards",
+        "contentCategory": null,
+        "headline": "Allen Robinson finds an opening in Packers' secondary for 21 yards",
+        "caption": "Chicago Bears wide receiver Allen Robinson finds an opening in Packers' secondary for 21 yards.",
+        "availableAsHd": false,
+        "videoDetailPageUrl": "http://www.nfl.com/videos/nfl-game-highlights/0ap3000001051429/Allen-Robinson-finds-an-opening-in-Packers-secondary-for-21-yards",
+        "videoFileUrl": null,
+        "xSmallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051429/1567740514_0ap3000001051429_video_thumbnail_60_45.jpg",
+        "smallImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051429/1567740514_0ap3000001051429_video_thumbnail_80_60.jpg",
+        "mediumImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051429/1567740514_0ap3000001051429_video_rhr_210.jpg",
+        "largeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051429/1567740514_0ap3000001051429_video_cp.jpg",
+        "xLargeImageUrl": "http://static.nfl.com/static/content/public/video/2019/09/05/0ap3000001051429/1567740514_0ap3000001051429_video_player_cp.jpg",
+        "tags": null,
+        "source": "NFL.com",
+        "primaryVideoChannel": {
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        },
+        "videoBitRates": [{
+            "videoPath": "https://nfl-vod.cdn.anvato.net/league/5684/19/09/05/451128/451128_21A302BBF4AA4B5D8CCCBC8D2BFC5DDB_190905_451128_Allen_Robinson_finds_an_opening_in_Packers__seco_3200.mp4",
+            "bitrate": 3200000
+        }],
+        "videoChannels": [{
+            "channelId": "nfl-game-highlights",
+            "channelName": "Game Highlights"
+        }, {
+            "channelId": "chicago-bears",
+            "channelName": "Chicago Bears"
+        }],
+        "teams": [{
+            "season": 2019,
+            "teamId": "0810",
+            "abbr": "CHI",
+            "cityState": "Chicago",
+            "fullName": "Chicago Bears",
+            "nick": "Bears",
+            "teamType": "TEAM",
+            "conferenceAbbr": "NFC",
+            "divisionAbbr": "NCN"
+        }],
+        "gameSchedules": [{
+            "season": 2019,
+            "seasonType": "REG",
+            "week": 1,
+            "gameId": 2019090500,
+            "gameKey": 57900,
+            "gameDate": "09/05/2019",
+            "gameTimeEastern": "20:20:00",
+            "gameTimeLocal": "19:20:00",
+            "isoTime": 1567729200000,
+            "homeTeamId": "0810",
+            "visitorTeamId": "1800",
+            "homeTeamAbbr": "CHI",
+            "visitorTeamAbbr": "GB",
+            "homeDisplayName": "Chicago Bears",
+            "visitorDisplayName": "Green Bay Packers",
+            "homeNickname": "Bears",
+            "visitorNickname": "Packers",
+            "gameType": "REG",
+            "visitorTeam": {
+                "season": 2019,
+                "teamId": "1800",
+                "abbr": "GB",
+                "cityState": "Green Bay",
+                "fullName": "Green Bay Packers",
+                "nick": "Packers",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "homeTeam": {
+                "season": 2019,
+                "teamId": "0810",
+                "abbr": "CHI",
+                "cityState": "Chicago",
+                "fullName": "Chicago Bears",
+                "nick": "Bears",
+                "teamType": "TEAM",
+                "conferenceAbbr": "NFC",
+                "divisionAbbr": "NCN"
+            },
+            "site": {
+                "siteId": 4620,
+                "siteCity": "Chicago",
+                "siteFullname": "Soldier Field",
+                "siteState": "IL",
+                "roofType": "OUTDOOR"
+            }
+        }],
+        "players": [{
+            "nflId": 2543509,
+            "status": "ACT",
+            "displayName": "Allen Robinson",
+            "firstName": "Allen",
+            "lastName": "Robinson",
+            "esbId": "ROB365982",
+            "gsisId": "00-0031428"
+        }],
+        "weight": 0,
+        "contentTags": [{
+            "contentId": null,
+            "contentTag": "league",
+            "position": null
+        }, {
+            "contentId": null,
+            "contentTag": "Allen Robinson",
+            "position": null
+        }],
+        "properties": ["NFL"],
+        "closedCaptionFileUrl": null,
+        "videoPlayBackUrl": "https://nfl-mcp-download.storage.googleapis.com/pub/variant/451128.m3u8"
+    }]
+}

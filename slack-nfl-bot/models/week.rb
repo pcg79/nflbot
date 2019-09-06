@@ -40,6 +40,7 @@ class Week < Base
         game_data_attrs = game_score["gameSchedule"]
         game_params = {
           week: game_data_attrs["week"],
+          game_id: game_data_attrs["gameId"],
           home_team: game_data_attrs["homeDisplayName"],
           away_team: game_data_attrs["visitorDisplayName"],
           game_iso_time: game_data_attrs["isoTime"],

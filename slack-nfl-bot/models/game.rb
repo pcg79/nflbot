@@ -62,7 +62,7 @@ class Game < Base
   end
 
   def highlights
-    [].tap do |highlights|
+    @highlights ||= [].tap do |highlights|
       highlights_data["videos"].each do |videos_data|
         highlights << Highlight.new(videos_data)
       end

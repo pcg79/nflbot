@@ -9,7 +9,7 @@ module SlackNFLBot
         client.say(text: message, channel: data.channel)
       end
 
-      match /highlights for (the )?([\w\s]+)/ do |client, data, _match|
+      match /highlights for (the )?([\w\s]+)/ do |client, data, match|
         if team = match[2]
           message = highlights_message(team)
           client.say(text: message, channel: data.channel)

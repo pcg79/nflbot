@@ -6,13 +6,21 @@ module SlackNFLBot
         team = ::Team.get_team(data)
 
         message = highlights_message(team.full_name)
-        client.say(text: message, channel: data.channel)
+        client.say(
+          text: message,
+          channel: data.channel,
+          thread_ts: data.thread_ts || data.ts
+        )
       end
 
       match /highlights for (the )?([\w\s]+)/ do |client, data, match|
         if team = match[2]
           message = highlights_message(team)
-          client.say(text: message, channel: data.channel)
+          client.say(
+            text: message,
+            channel: data.channel,
+            thread_ts: data.thread_ts || data.ts
+            )
         end
       end
 

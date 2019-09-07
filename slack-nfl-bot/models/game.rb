@@ -41,7 +41,8 @@ class Game < Base
   end
 
   def has_team?(team)
-    home_team_full_name == team || away_team_full_name == team
+    team = team.downcase
+    home_team_full_name.downcase == team || away_team_full_name.downcase == team
   end
 
   def home_team_supporters

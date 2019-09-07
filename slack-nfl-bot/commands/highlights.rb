@@ -20,7 +20,7 @@ module SlackNFLBot
             text: message,
             channel: data.channel,
             thread_ts: data.thread_ts || data.ts
-            )
+          )
         end
       end
 

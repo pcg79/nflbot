@@ -2,7 +2,7 @@ module SlackNFLBot
   module Commands
     class Highlights < SlackRubyBot::Commands::Base
 
-      match /^highlights$/ do |client, data, _match|
+      match /highlights$/ do |client, data, _match|
         team = ::Team.get_team(data)
 
         message = highlights_message(team.full_name)

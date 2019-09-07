@@ -61,4 +61,17 @@ describe SlackNFLBot::Commands::Highlights do
       expect(message: "nflbot highlights", channel: "channel").to respond_with_slack_message(/#{message}/)
     end
   end
+
+  context "highlights for any team" do
+    it "returns the highlight videos for that team's game" do
+      expect(::Team).to receive(:get_team).and_return(bears)
+      expect(::Week).to receive(:json_endpoint).and_return(scores_url)
+      expect_any_instance_of(::Game).to receive(:highlights_endpoint).and_return(highlights_url)
+
+      # Double \\ are so the * are escaped in the regex
+      message = "Here are the highlights for the \\*Washington Redskins AT Atlanta Falcons\\* game:"
+
+      expect(message: "nflbot highlights for the Chicago Bears", channel: "channel").to respond_with_slack_message(/#{message}/)
+    end
+  end
 end

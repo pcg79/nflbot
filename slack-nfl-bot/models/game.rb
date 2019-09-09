@@ -2,7 +2,7 @@ require 'date'
 
 class Game < Base
   attr_reader :week, :game_id, :home_team_full_name, :away_team_full_name, :home_team_score, :away_team_score,
-    :game_iso_time, :overtime, :status
+    :game_iso_time, :overtime, :phase
 
   def initialize(game_params)
     @week = game_params[:week]
@@ -13,7 +13,7 @@ class Game < Base
     @away_team_score = game_params[:away_team_score]
 
     @game_iso_time = get_game_time(game_params[:game_iso_time])
-    @status = game_params[:status]
+    @phase = game_params[:phase]
   end
 
   def to_s
@@ -25,7 +25,7 @@ class Game < Base
     elsif overtime?
       <<~SCORE
       #{format_winner(home_team_full_name, away_team_full_name, home_team_score, away_team_score)}
-      FINAL
+      FINAL - OVERTIME
       SCORE
     else
       <<~SCORE
@@ -116,11 +116,11 @@ class Game < Base
   end
 
   def final?
-    status == "FINAL"
+    phase == "FINAL"
   end
 
   def overtime?
-    status == "FO"
+    phase == "FINAL_OVERTIME"
   end
 
   def tie?

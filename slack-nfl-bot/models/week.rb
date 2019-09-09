@@ -52,7 +52,7 @@ class Week < Base
           away_team_attrs = score_element["visitorTeamScore"]
 
           score_params = {
-            status: score_element["phase"],
+            phase: score_element["phase"],
             home_team_score: home_team_attrs["pointTotal"],
             away_team_score: away_team_attrs["pointTotal"],
           }

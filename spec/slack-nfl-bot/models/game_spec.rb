@@ -6,7 +6,7 @@ describe Game do
       home_team: "Washington Redskins",
       away_team: "New England Patriots",
       game_iso_time: 1565910000000,
-      status: "FINAL",
+      phase: "FINAL",
       home_team_score: "21",
       away_team_score: "0"
     })
